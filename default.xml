@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest>
   <remote name="origin" fetch="." review="https://review.gerrithub.io"/>
-  <default remote="origin" revision="refs/tags/R7000-V1.0.0.96_1.0.15" sync-c="1" sync-j="4" upstream="netgear/r7000-ref"/>
+  <default remote="origin" revision="refs/tags/R7000-V1.0.1.22_1.0.15" sync-c="1" sync-j="4" upstream="netgear/r7000-ref"/>
 
   <!-- @origin(oss) @owner(oss) -->
   <project path="ap/gpl/curl-7.23.1/source" name="curl" revision="refs/tags/curl-7_23_1"/>
@@ -23,12 +23,14 @@
   <project path="ap/gpl/iserver/mxml-2.7" name="mxml" revision="d5af089cc3e795e3f24ff6b2fee7fd2413a3747c"/>
   <project path="ap/gpl/iserver/tre-0.8.0" name="tre" revision="cdce45e8dd7a3b36954022b4a4d3570e1ac5a4f8"/>
   <project path="ap/gpl/iserver/zlib-1.2.7" name="zlib" revision="refs/tags/v1.2.7"/>
+  <project path="ap/gpl/libpcap-1.4.0" name="libpcap" revision="refs/tags/libpcap-1.4.0"/>
   <project path="ap/gpl/lzo-2.06" name="lzo" revision="2905e8a5ff5fc5b87df54851180a7004517e3988"/>
   <project path="ap/gpl/minidlna/jpeg-7" name="libjpeg" revision="acc9a4f1ce4a05de8343c33d1f1e90c08237004b"/>
   <project path="ap/gpl/minidlna/libexif-0.6.19" name="libexif" revision="refs/tags/v0.6.19" upstream="offpack/master"/>
   <project path="ap/gpl/minidlna/libogg-1.1.4" name="ogg" revision="refs/tags/v1.1.4"/>
   <project path="ap/gpl/minidlna/zlib-1.2.3" name="zlib" revision="refs/tags/v1.2.3"/>
   <project path="ap/gpl/openssl" name="openssl" revision="refs/tags/OpenSSL_0_9_7f"/>
+  <project path="ap/gpl/tcpdump-4.4.0" name="tcpdump" revision="refs/tags/tcpdump-4.4.0"/>
   <project path="ap/gpl/timemachine/expat-2.0.1" name="libexpat" revision="refs/tags/R_2_0_1"/>
   <project path="ap/gpl/timemachine/gdbm-1.8.3" name="gdbm" revision="refs/tags/v1.8.3"/>
   <project path="ap/gpl/timemachine/gettext-0.17" name="gettext" revision="refs/tags/v0.17"/>
@@ -68,7 +70,7 @@
   <project path="ap/gpl/pppoecd" name="pppoe"/>
   <project path="ap/gpl/pptp" name="pptpclient"/>
   <project path="ap/gpl/radvd" name="radvd"/>
-  <project path="ap/gpl/samba-3.0.13" name="samba"/>
+  <project path="ap/gpl/samba-3.0.25b" name="samba"/>
   <project path="ap/gpl/timemachine/avahi-0.6.25" name="avahi"/>
   <project path="ap/gpl/timemachine/db-4.7.25.NC" name="berkeleydb"/>
   <project path="ap/gpl/timemachine/netatalk-2.2.0" name="Netatalk"/>
@@ -100,7 +102,7 @@
   <!-- @origin(netgear) @owner(netgear) -->
   <project path="ap/acos" name="vendor_netgear_acos"/>
   <project path="project" name="vendor_netgear_router_project">
-    <copyfile src="build_instructions.txt" dest="R7000-V1.0.0.96_1.0.15_build_instructions.txt"/>
+    <copyfile src="build_instructions.txt" dest="R7000-V1.0.1.22_1.0.15_build_instructions.txt"/>
     <copyfile src="gpl/config.in" dest="ap/gpl/config.in"/>
     <copyfile src="gpl/config.mk" dest="ap/gpl/config.mk"/>
     <copyfile src="gpl/curl/make.sh" dest="ap/gpl/curl-7.23.1/make.sh"/>
