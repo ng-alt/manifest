@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest>
   <remote name="origin" fetch="." review="https://review.gerrithub.io"/>
-  <default remote="origin" revision="refs/tags/R7000-V1.0.1.22_1.0.15" sync-c="1" sync-j="4" upstream="netgear/r7000-ref"/>
+  <default remote="origin" revision="refs/tags/R7000-V1.0.2.120_1.0.17" sync-c="1" sync-j="4" upstream="netgear/r7000-ref"/>
 
   <!-- @origin(oss) @owner(oss) -->
   <project path="ap/gpl/curl-7.23.1/source" name="curl" revision="refs/tags/curl-7_23_1"/>
+  <project path="ap/gpl/GeoIP-1.5.1" name="geoip-api-c" revision="refs/tags/v1.5.1"/>
   <project path="ap/gpl/iserver/confuse-2.7" name="libconfuse" revision="refs/tags/v2.7"/>
   <project path="ap/gpl/iserver/dbus-1.6.8" name="dbus" revision="refs/tags/dbus-1.6.8"/>
   <project path="ap/gpl/iserver/expat-2.0.1" name="libexpat" revision="refs/tags/R_2_0_1"/>
@@ -41,6 +42,10 @@
   <project path="ap/gpl/timemachine/libxml2-2.7.2" name="libxml2" revision="refs/tags/LIBXML2.7.2"/>
   <project path="ap/gpl/timemachine/openssl-0.9.8e" name="openssl" revision="refs/tags/OpenSSL_0_9_8e"/>
   <project path="ap/gpl/timemachine/zlib-1.2.3" name="zlib" revision="refs/tags/v1.2.3"/>
+  <project path="components/opensource/netfilter/libmnl" name="libmnl" revision="refs/tags/libmnl-1.0.3"/>
+  <project path="components/opensource/netfilter/libnetfilter_conntrack" name="libnetfilter_conntrack" revision="refs/tags/libnetfilter_conntrack-1.0.2"/>
+  <project path="components/opensource/netfilter/libnetfilter_queue" name="libnetfilter_queue" revision="refs/tags/libnetfilter_queue-1.0.2"/>
+  <project path="components/opensource/netfilter/libnfnetlink" name="libnfnetlink" revision="refs/tags/libnfnetlink-1.0.1"/>
   <project path="src/tools/misc/xz" name="xz" revision="refs/tags/v5.0.3"/>
 
   <!-- @origin(oss) @owner(netgear) -->
@@ -102,7 +107,7 @@
   <!-- @origin(netgear) @owner(netgear) -->
   <project path="ap/acos" name="vendor_netgear_acos"/>
   <project path="project" name="vendor_netgear_router_project">
-    <copyfile src="build_instructions.txt" dest="R7000-V1.0.1.22_1.0.15_build_instructions.txt"/>
+    <copyfile src="build_instructions.txt" dest="R7000-V1.0.2.120_1.0.17_build_instructions.txt"/>
     <copyfile src="gpl/config.in" dest="ap/gpl/config.in"/>
     <copyfile src="gpl/config.mk" dest="ap/gpl/config.mk"/>
     <copyfile src="gpl/curl/make.sh" dest="ap/gpl/curl-7.23.1/make.sh"/>
