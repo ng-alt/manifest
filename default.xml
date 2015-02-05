@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest>
   <remote name="origin" fetch="." review="https://review.gerrithub.io"/>
-  <default remote="origin" revision="refs/tags/R7000-V1.0.3.80_1.0.38" sync-c="1" sync-j="4" upstream="netgear/r7000-ref"/>
+  <default remote="origin" revision="refs/tags/R7000-V1.0.4.18_1.1.52" sync-c="1" sync-j="4" upstream="netgear/r7000-ref"/>
 
   <!-- @origin(oss) @owner(oss) -->
-  <project path="ap/gpl/curl-7.23.1/source" name="curl" revision="refs/tags/curl-7_23_1"/>
+  <project path="ap/gpl/curl/curl-7.36.0" name="curl" revision="refs/tags/curl-7_36_0"/>
   <project path="ap/gpl/GeoIP-1.5.1" name="geoip-api-c" revision="refs/tags/v1.5.1"/>
+  <project path="ap/gpl/gsoap/source" name="gSOAP" revision="refs/tags/v2.7.11"/>
+  <project path="ap/gpl/gsoap/source_build_platform" name="gSOAP" revision="refs/tags/v2.7.11"/>
+  <project path="ap/gpl/iperf-2.0.5" name="iperf" revision="refs/tags/v2.0.5"/>
   <project path="ap/gpl/iserver/confuse-2.7" name="libconfuse" revision="refs/tags/v2.7"/>
   <project path="ap/gpl/iserver/dbus-1.6.8" name="dbus" revision="refs/tags/dbus-1.6.8"/>
   <project path="ap/gpl/iserver/expat-2.0.1" name="libexpat" revision="refs/tags/R_2_0_1"/>
@@ -25,6 +28,9 @@
   <project path="ap/gpl/iserver/tre-0.8.0" name="tre" revision="cdce45e8dd7a3b36954022b4a4d3570e1ac5a4f8"/>
   <project path="ap/gpl/iserver/zlib-1.2.7" name="zlib" revision="refs/tags/v1.2.7"/>
   <project path="ap/gpl/libpcap-1.4.0" name="libpcap" revision="refs/tags/libpcap-1.4.0"/>
+  <project path="ap/gpl/libpng" name="libpng" revision="refs/tags/v1.2.50"/>
+  <project path="ap/gpl/libxml2-2.7.2" name="libxml2" revision="refs/tags/LIBXML2.7.2"/>
+  <project path="ap/gpl/lsync" name="lsyncd" revision="refs/tags/release-2.1.5"/>
   <project path="ap/gpl/lzo-2.06" name="lzo" revision="2905e8a5ff5fc5b87df54851180a7004517e3988"/>
   <project path="ap/gpl/minidlna/jpeg-7" name="libjpeg" revision="acc9a4f1ce4a05de8343c33d1f1e90c08237004b"/>
   <project path="ap/gpl/minidlna/libexif-0.6.19" name="libexif" revision="refs/tags/v0.6.19" upstream="offpack/master"/>
@@ -49,6 +55,8 @@
   <project path="ap/gpl/bpalogin" name="bpalogin"/>
   <project path="ap/gpl/bzip2" name="bzip2"/>
   <project path="ap/gpl/dnsmasq-2.15" name="dnsmasq"/>
+  <project path="ap/gpl/hd-idle-1.04" name="hd-idle"/>
+  <project path="ap/gpl/hdparm-9.43" name="hdparm"/>
   <project path="ap/gpl/IGMP-PROXY" name="igmpv3proxy"/>
   <project path="ap/gpl/iproute2" name="iproute2"/>
   <project path="ap/gpl/iserver/alsa-lib-1.0.26" name="alsa-lib"/>
@@ -58,6 +66,7 @@
   <project path="ap/gpl/iserver/sqlite-3.6.22" name="sqlite"/>
   <project path="ap/gpl/l2tpd-0.69" name="l2tpd"/>
   <project path="ap/gpl/l7filter" name="vendor_netgear_router_l7filter"/>
+  <project path="ap/gpl/lua/source/src" name="lua"/>
   <project path="ap/gpl/minidlna/ffmpeg-0.5.1" name="FFmpeg"/>
   <project path="ap/gpl/minidlna/flac-1.2.1" name="flac"/>
   <project path="ap/gpl/minidlna/libid3tag-0.15.0b" name="libid3tag"/>
@@ -103,13 +112,11 @@
   <!-- @origin(netgear) @owner(netgear) -->
   <project path="ap/acos" name="vendor_netgear_acos"/>
   <project path="project" name="vendor_netgear_router_project">
-    <copyfile src="build_instructions.txt" dest="R7000-V1.0.3.80_1.0.38_build_instructions.txt"/>
+    <copyfile src="build_instructions.txt" dest="R7000-V1.0.4.18_1.1.52_build_instructions.txt"/>
     <copyfile src="gpl/config.in" dest="ap/gpl/config.in"/>
     <copyfile src="gpl/config.mk" dest="ap/gpl/config.mk"/>
-    <copyfile src="gpl/curl/make.sh" dest="ap/gpl/curl-7.23.1/make.sh"/>
-    <copyfile src="gpl/curl/make_arm.sh" dest="ap/gpl/curl-7.23.1/make_arm.sh"/>
-    <copyfile src="gpl/curl/Makefile" dest="ap/gpl/curl-7.23.1/Makefile"/>
-    <copyfile src="gpl/curl/Makefile_arm" dest="ap/gpl/curl-7.23.1/Makefile_arm"/>
+    <copyfile src="gpl/curl/Makefile" dest="ap/gpl/curl/Makefile"/>
+    <copyfile src="gpl/gsoap/Makefile" dest="ap/gpl/gsoap/Makefile"/>
     <copyfile src="gpl/iserver/edit_config_status.sh" dest="ap/gpl/iserver/edit_config_status.sh"/>
     <copyfile src="gpl/iserver/edit_makefile.sh" dest="ap/gpl/iserver/edit_makefile.sh"/>
     <copyfile src="gpl/iserver/list_config_status" dest="ap/gpl/iserver/list_config_status"/>
@@ -117,6 +124,7 @@
     <copyfile src="gpl/iserver/Makefil" dest="ap/gpl/iserver/Makefile"/>
     <copyfile src="gpl/iserver/mount_filesys.sh" dest="ap/gpl/iserver/mount_filesys.sh"/>
     <copyfile src="gpl/iserver/start_forked-daapd.sh" dest="ap/gpl/iserver/start_forked-daapd.sh"/>
+    <copyfile src="gpl/lua/Makefile" dest="ap/gpl/lua/Makefile"/>
     <copyfile src="gpl/Makefile" dest="ap/gpl/Makefile"/>
     <copyfile src="gpl/minidlna/Makefile" dest="ap/gpl/minidlna/Makefile"/>
     <copyfile src="gpl/timemachine/Makefile" dest="ap/gpl/timemachine/Makefile"/>
