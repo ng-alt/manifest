@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest>
   <remote name="origin" fetch="." review="https://review.gerrithub.io"/>
-  <default remote="origin" revision="refs/tags/R8000-V1.0.1.16_1.0.74" sync-c="1" sync-j="4" upstream="netgear/r8000-ref"/>
+  <default remote="origin" revision="refs/tags/R8000-V1.0.1.28_1.0.84" sync-c="1" sync-j="4" upstream="netgear/r8000-ref"/>
 
   <!-- @origin(oss) @owner(oss) -->
   <project path="ap/gpl/amule/aMule-2.3.1" name="amule" revision="bd75644c0594d23de6276ea5acc0f7a704aec5bf"/>
   <project path="ap/gpl/amule/wxWidgets-2.8.12" name="wxWidgets" revision="refs/tags/v2.8.12"/>
   <project path="ap/gpl/curl-7.23.1/source" name="curl" revision="refs/tags/curl-7_23_1"/>
   <project path="ap/gpl/GeoIP-1.5.1" name="geoip-api-c" revision="refs/tags/v1.5.1"/>
+  <project path="ap/gpl/iperf-2.0.5" name="iperf" revision="refs/tags/v2.0.5"/>
   <project path="ap/gpl/iserver/confuse-2.7" name="libconfuse" revision="refs/tags/v2.7"/>
   <project path="ap/gpl/iserver/dbus-1.6.8" name="dbus" revision="refs/tags/dbus-1.6.8"/>
   <project path="ap/gpl/iserver/expat-2.0.1" name="libexpat" revision="refs/tags/R_2_0_1"/>
@@ -54,6 +55,8 @@
   <project path="ap/gpl/bpalogin" name="bpalogin"/>
   <project path="ap/gpl/bzip2" name="bzip2"/>
   <project path="ap/gpl/dnsmasq-2.15" name="dnsmasq"/>
+  <project path="ap/gpl/hd-idle-1.04" name="hd-idle"/>
+  <project path="ap/gpl/hdparm-9.43" name="hdparm"/>
   <project path="ap/gpl/IGMP-PROXY" name="igmpv3proxy"/>
   <project path="ap/gpl/iproute2" name="iproute2"/>
   <project path="ap/gpl/iserver/alsa-lib-1.0.26" name="alsa-lib"/>
@@ -109,7 +112,7 @@
   <!-- @origin(netgear) @owner(netgear) -->
   <project path="ap/acos" name="vendor_netgear_acos"/>
   <project path="project" name="vendor_netgear_router_project">
-    <copyfile src="build_instructions.txt" dest="R8000-V1.0.1.16_1.0.74_build_instructions.txt"/>
+    <copyfile src="build_instructions.txt" dest="R8000-V1.0.1.28_1.0.84_build_instructions.txt"/>
     <copyfile src="gpl/amule/Makefile" dest="ap/gpl/amule/Makefile"/>
     <copyfile src="gpl/config.in" dest="ap/gpl/config.in"/>
     <copyfile src="gpl/config.mk" dest="ap/gpl/config.mk"/>
