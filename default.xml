@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest>
   <remote name="origin" fetch="." review="https://review.gerrithub.io"/>
-  <default remote="origin" revision="refs/tags/R8000-V1.0.1.28_1.0.84" sync-c="1" sync-j="4" upstream="netgear/r8000-ref"/>
+  <default remote="origin" revision="refs/tags/R8000-V1.0.2.44_1.0.96" sync-c="1" sync-j="4" upstream="netgear/r8000-ref"/>
 
   <!-- @origin(oss) @owner(oss) -->
   <project path="ap/gpl/amule/aMule-2.3.1" name="amule" revision="bd75644c0594d23de6276ea5acc0f7a704aec5bf"/>
   <project path="ap/gpl/amule/wxWidgets-2.8.12" name="wxWidgets" revision="refs/tags/v2.8.12"/>
-  <project path="ap/gpl/curl-7.23.1/source" name="curl" revision="refs/tags/curl-7_23_1"/>
+  <project path="ap/gpl/curl/curl-7.36.0" name="curl" revision="refs/tags/curl-7_36_0"/>
   <project path="ap/gpl/GeoIP-1.5.1" name="geoip-api-c" revision="refs/tags/v1.5.1"/>
   <project path="ap/gpl/iperf-2.0.5" name="iperf" revision="refs/tags/v2.0.5"/>
   <project path="ap/gpl/iserver/confuse-2.7" name="libconfuse" revision="refs/tags/v2.7"/>
@@ -112,14 +112,11 @@
   <!-- @origin(netgear) @owner(netgear) -->
   <project path="ap/acos" name="vendor_netgear_acos"/>
   <project path="project" name="vendor_netgear_router_project">
-    <copyfile src="build_instructions.txt" dest="R8000-V1.0.1.28_1.0.84_build_instructions.txt"/>
+    <copyfile src="build_instructions.txt" dest="R8000-V1.0.2.44_1.0.96_build_instructions.txt"/>
     <copyfile src="gpl/amule/Makefile" dest="ap/gpl/amule/Makefile"/>
     <copyfile src="gpl/config.in" dest="ap/gpl/config.in"/>
     <copyfile src="gpl/config.mk" dest="ap/gpl/config.mk"/>
-    <copyfile src="gpl/curl/make.sh" dest="ap/gpl/curl-7.23.1/make.sh"/>
-    <copyfile src="gpl/curl/make_arm.sh" dest="ap/gpl/curl-7.23.1/make_arm.sh"/>
-    <copyfile src="gpl/curl/Makefile" dest="ap/gpl/curl-7.23.1/Makefile"/>
-    <copyfile src="gpl/curl/Makefile_arm" dest="ap/gpl/curl-7.23.1/Makefile_arm"/>
+    <copyfile src="gpl/curl/Makefile" dest="ap/gpl/curl/Makefile"/>
     <copyfile src="gpl/iserver/edit_config_status.sh" dest="ap/gpl/iserver/edit_config_status.sh"/>
     <copyfile src="gpl/iserver/edit_makefile.sh" dest="ap/gpl/iserver/edit_makefile.sh"/>
     <copyfile src="gpl/iserver/list_config_status" dest="ap/gpl/iserver/list_config_status"/>
