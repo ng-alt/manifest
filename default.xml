@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest>
   <remote name="origin" fetch="." review="https://review.gerrithub.io"/>
-  <default remote="origin" revision="refs/tags/R7000-V1.0.4.18_1.1.52" sync-c="1" sync-j="4" upstream="netgear/r7000-ref"/>
+  <default remote="origin" revision="refs/tags/R7000-V1.0.4.28_1.1.64" sync-c="1" sync-j="4" upstream="netgear/r7000-ref"/>
 
   <!-- @origin(oss) @owner(oss) -->
   <project path="ap/gpl/curl/curl-7.36.0" name="curl" revision="refs/tags/curl-7_36_0"/>
@@ -98,6 +98,7 @@
   <project path="src/router/flex" name="flex"/>
   <project path="src/router/hotplug2" name="hotplug2"/>
   <project path="src/router/iptables-1.4.12/src" name="iptables"/>
+  <project path="src/router/iputils" name="iputils"/>
   <project path="src/router/ntpclient" name="ntpclient"/>
   <project path="src/router/squashfs-4.2" name="squashfs-tools"/>
   <project path="src/router/udev" name="udev"/>
@@ -112,7 +113,7 @@
   <!-- @origin(netgear) @owner(netgear) -->
   <project path="ap/acos" name="vendor_netgear_acos"/>
   <project path="project" name="vendor_netgear_router_project">
-    <copyfile src="build_instructions.txt" dest="R7000-V1.0.4.18_1.1.52_build_instructions.txt"/>
+    <copyfile src="build_instructions.txt" dest="R7000-V1.0.4.28_1.1.64_build_instructions.txt"/>
     <copyfile src="gpl/config.in" dest="ap/gpl/config.in"/>
     <copyfile src="gpl/config.mk" dest="ap/gpl/config.mk"/>
     <copyfile src="gpl/curl/Makefile" dest="ap/gpl/curl/Makefile"/>
