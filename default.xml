@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest>
   <remote name="origin" fetch="." review="https://review.gerrithub.io"/>
-  <default remote="origin" revision="refs/tags/R6300v2-V1.0.3.28_10.0.71" sync-c="1" sync-j="4" upstream="netgear/r6300v2-ref"/>
+  <default remote="origin" revision="refs/tags/R6300v2-V1.0.3.30_10.0.73" sync-c="1" sync-j="4" upstream="netgear/r6300v2-ref"/>
 
   <!-- @origin(oss) @owner(oss) -->
   <project path="ap/gpl/curl-7.23.1/source" name="curl" revision="refs/tags/curl-7_23_1"/>
@@ -63,7 +63,7 @@
   <!-- @origin(netgear) @owner(netgear) -->
   <project path="ap/acos" name="vendor_netgear_acos"/>
   <project path="project" name="vendor_netgear_router_project">
-    <copyfile src="build_instructions.txt" dest="R6300v2-V1.0.3.28_10.0.71_build_instructions.txt"/>
+    <copyfile src="build_instructions.txt" dest="R6300v2-V1.0.3.30_10.0.73_build_instructions.txt"/>
     <copyfile src="gpl/curl-7.23.1/make_arm.sh" dest="ap/gpl/curl-7.23.1/make_arm.sh"/>
     <copyfile src="gpl/curl-7.23.1/Makefile" dest="ap/gpl/curl-7.23.1/Makefile"/>
     <copyfile src="gpl/curl-7.23.1/Makefile_arm" dest="ap/gpl/curl-7.23.1/Makefile_arm"/>
