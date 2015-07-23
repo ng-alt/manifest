@@ -45,7 +45,7 @@
   <project path="ap/gpl/timemachine/libdaemon-0.14" name="libdaemon" revision="refs/tags/v0.14"/>
   <project path="ap/gpl/timemachine/libgcrypt-1.5.0" name="libgcrypt" revision="refs/tags/libgcrypt-1.5.0"/>
   <project path="ap/gpl/timemachine/libgpg-error-1.10" name="libgpg-error" revision="refs/tags/libgpg-error-1.10"/>
-  <project path="ap/gpl/timemachine/libiconv-1.10" name="libiconv" revision="refs/tags/v1.10"/>
+  <project path="ap/gpl/timemachine/libiconv-1.11" name="libiconv" revision="refs/tags/v1.11"/>
   <project path="ap/gpl/timemachine/libxml2-2.7.2" name="libxml2" revision="refs/tags/LIBXML2.7.2"/>
   <project path="ap/gpl/timemachine/openssl-0.9.8e" name="openssl" revision="refs/tags/OpenSSL_0_9_8e"/>
   <project path="ap/gpl/timemachine/zlib-1.2.3" name="zlib" revision="refs/tags/v1.2.3"/>
@@ -112,7 +112,7 @@
   <!-- @origin(netgear) @owner(netgear) -->
   <project path="ap/acos" name="vendor_netgear_acos"/>
   <project path="project" name="vendor_netgear_router_project">
-    <copyfile src="build_instructions.txt" dest="R6400-V1.0.0.20_1.0.11_build_instructions.txt"/>
+    <copyfile src="build_instructions.txt" dest="R6400-V1.0.0.24_1.0.13_build_instructions.txt"/>
     <copyfile src="gpl/config.in" dest="ap/gpl/config.in"/>
     <copyfile src="gpl/config.mk" dest="ap/gpl/config.mk"/>
     <copyfile src="gpl/curl/Makefile" dest="ap/gpl/curl/Makefile"/>
