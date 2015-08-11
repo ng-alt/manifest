@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest>
   <remote name="origin" fetch="." review="https://review.gerrithub.io"/>
-  <default remote="origin" revision="refs/tags/R6400-V1.0.0.24_1.0.13" sync-c="1" sync-j="4" upstream="netgear/r6400-ref"/>
+  <default remote="origin" revision="refs/tags/R6400-V1.0.0.26_1.0.14" sync-c="1" sync-j="4" upstream="netgear/r6400-ref"/>
 
   <!-- @origin(oss) @owner(oss) -->
+  <project path="ap/gpl/amule/aMule-2.3.1" name="amule" revision="bd75644c0594d23de6276ea5acc0f7a704aec5bf"/>
+  <project path="ap/gpl/amule/wxWidgets-2.8.12" name="wxWidgets" revision="refs/tags/v2.8.12"/>
   <project path="ap/gpl/curl/curl-7.36.0/source" name="curl" revision="refs/tags/curl-7_36_0"/>
   <project path="ap/gpl/GeoIP-1.5.1" name="geoip-api-c" revision="refs/tags/v1.5.1"/>
   <project path="ap/gpl/gsoap/source" name="gSOAP" revision="refs/tags/v2.7.11"/>
@@ -49,9 +51,13 @@
   <project path="ap/gpl/timemachine/libxml2-2.7.2" name="libxml2" revision="refs/tags/LIBXML2.7.2"/>
   <project path="ap/gpl/timemachine/openssl-0.9.8e" name="openssl" revision="refs/tags/OpenSSL_0_9_8e"/>
   <project path="ap/gpl/timemachine/zlib-1.2.3" name="zlib" revision="refs/tags/v1.2.3"/>
+  <project path="ap/gpl/transmission/libevent-2.0.20-stable" name="libevent" revision="refs/tags/release-2.0.20-stable"/>
+  <project path="ap/gpl/transmission/openssl" name="openssl" revision="refs/tags/OpenSSL_0_9_7f"/>
+  <project path="ap/gpl/transmission/zlib-1.2.3" name="zlib" revision="refs/tags/v1.2.3"/>
   <project path="src/tools/misc/xz" name="xz" revision="refs/tags/v5.0.3"/>
 
   <!-- @origin(oss) @owner(netgear) -->
+  <project path="ap/gpl/amule/libcryptoxx-5.6.0" name="cryptopp"/>
   <project path="ap/gpl/bftpd-1.6.6" name="bftpd"/>
   <project path="ap/gpl/bpalogin" name="bpalogin"/>
   <project path="ap/gpl/bzip2" name="bzip2"/>
@@ -85,6 +91,7 @@
   <project path="ap/gpl/timemachine/avahi-0.6.25" name="avahi"/>
   <project path="ap/gpl/timemachine/netatalk-2.2.5" name="Netatalk"/>
   <project path="ap/gpl/timemachine/netatalk-utility" name="wakelan"/>
+  <project path="ap/gpl/transmission/transmission-2.73" name="transmission"/>
   <project path="ap/gpl/udhcpd" name="udhcp"/>
   <project path="ap/gpl/unzip60" name="unzip"/>
   <project path="ap/gpl/wget-1.12" name="wget"/>
@@ -112,7 +119,8 @@
   <!-- @origin(netgear) @owner(netgear) -->
   <project path="ap/acos" name="vendor_netgear_acos"/>
   <project path="project" name="vendor_netgear_router_project">
-    <copyfile src="build_instructions.txt" dest="R6400-V1.0.0.24_1.0.13_build_instructions.txt"/>
+    <copyfile src="build_instructions.txt" dest="R6400-V1.0.0.26_1.0.14_build_instructions.txt"/>
+    <copyfile src="gpl/amule/Makefile" dest="ap/gpl/amule/Makefile"/>
     <copyfile src="gpl/config.in" dest="ap/gpl/config.in"/>
     <copyfile src="gpl/config.mk" dest="ap/gpl/config.mk"/>
     <copyfile src="gpl/curl/Makefile" dest="ap/gpl/curl/Makefile"/>
@@ -128,6 +136,7 @@
     <copyfile src="gpl/Makefile" dest="ap/gpl/Makefile"/>
     <copyfile src="gpl/minidlna/Makefile" dest="ap/gpl/minidlna/Makefile"/>
     <copyfile src="gpl/timemachine/Makefile" dest="ap/gpl/timemachine/Makefile"/>
+    <copyfile src="gpl/transmission/Makefile" dest="ap/gpl/transmission/Makefile"/>
     <copyfile src="src/router/iptables-1.4.12/Makefile" dest="src/router/iptables-1.4.12/Makefile"/>
   </project>
 </manifest>
