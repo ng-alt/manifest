@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest>
   <remote name="origin" fetch="." review="https://review.gerrithub.io"/>
-  <default remote="origin" revision="refs/tags/R7000-V1.0.4.30_1.1.67" sync-c="1" sync-j="4" upstream="netgear/r7000-ref"/>
+  <default remote="origin" revision="refs/tags/R7000-V1.0.5.44_1.1.77" sync-c="1" sync-j="4" upstream="netgear/r7000-ref"/>
 
   <!-- @origin(oss) @owner(oss) -->
+  <project path="ap/gpl/amule/aMule-2.3.1" name="amule" revision="bd75644c0594d23de6276ea5acc0f7a704aec5bf"/>
+  <project path="ap/gpl/amule/wxWidgets-2.8.12" name="wxWidgets" revision="refs/tags/v2.8.12"/>
   <project path="ap/gpl/curl/curl-7.36.0" name="curl" revision="refs/tags/curl-7_36_0"/>
   <project path="ap/gpl/GeoIP-1.5.1" name="geoip-api-c" revision="refs/tags/v1.5.1"/>
   <project path="ap/gpl/gsoap/source" name="gSOAP" revision="refs/tags/v2.7.11"/>
   <project path="ap/gpl/gsoap/source_build_platform" name="gSOAP" revision="refs/tags/v2.7.11"/>
-  <project path="ap/gpl/iperf-2.0.5" name="iperf" revision="refs/tags/v2.0.5"/>
   <project path="ap/gpl/iserver/confuse-2.7" name="libconfuse" revision="refs/tags/v2.7"/>
   <project path="ap/gpl/iserver/dbus-1.6.8" name="dbus" revision="refs/tags/dbus-1.6.8"/>
   <project path="ap/gpl/iserver/expat-2.0.1" name="libexpat" revision="refs/tags/R_2_0_1"/>
@@ -28,14 +29,15 @@
   <project path="ap/gpl/iserver/tre-0.8.0" name="tre" revision="cdce45e8dd7a3b36954022b4a4d3570e1ac5a4f8"/>
   <project path="ap/gpl/iserver/zlib-1.2.7" name="zlib" revision="refs/tags/v1.2.7"/>
   <project path="ap/gpl/libpcap-1.4.0" name="libpcap" revision="refs/tags/libpcap-1.4.0"/>
-  <project path="ap/gpl/libpng" name="libpng" revision="refs/tags/v1.2.50"/>
-  <project path="ap/gpl/libxml2-2.7.2" name="libxml2" revision="refs/tags/LIBXML2.7.2"/>
-  <project path="ap/gpl/lsync" name="lsyncd" revision="refs/tags/release-2.1.5"/>
+  <project path="ap/gpl/libpng/libpng-1.2.50" name="libpng" revision="refs/tags/v1.2.50"/>
+  <project path="ap/gpl/libxml2-2.7.2/source" name="libxml2" revision="refs/tags/LIBXML2.7.2"/>
+  <project path="ap/gpl/lsync/source" name="lsyncd" revision="refs/tags/release-2.1.5"/>
   <project path="ap/gpl/lzo-2.06" name="lzo" revision="2905e8a5ff5fc5b87df54851180a7004517e3988"/>
   <project path="ap/gpl/minidlna/jpeg-7" name="libjpeg" revision="acc9a4f1ce4a05de8343c33d1f1e90c08237004b"/>
   <project path="ap/gpl/minidlna/libexif-0.6.19" name="libexif" revision="refs/tags/v0.6.19" upstream="offpack/master"/>
   <project path="ap/gpl/minidlna/libogg-1.1.4" name="ogg" revision="refs/tags/v1.1.4"/>
   <project path="ap/gpl/minidlna/zlib-1.2.8" name="zlib" revision="refs/tags/v1.2.8"/>
+  <project path="ap/gpl/ncftp-3.2.5/source" name="ncftp" revision="refs/tags/v3.2.5"/>
   <project path="ap/gpl/openssl" name="openssl" revision="refs/tags/OpenSSL_0_9_7f"/>
   <project path="ap/gpl/tcpdump-4.4.0" name="tcpdump" revision="refs/tags/tcpdump-4.4.0"/>
   <project path="ap/gpl/timemachine/expat-2.0.1" name="libexpat" revision="refs/tags/R_2_0_1"/>
@@ -48,9 +50,12 @@
   <project path="ap/gpl/timemachine/libxml2-2.7.2" name="libxml2" revision="refs/tags/LIBXML2.7.2"/>
   <project path="ap/gpl/timemachine/openssl-0.9.8e" name="openssl" revision="refs/tags/OpenSSL_0_9_8e"/>
   <project path="ap/gpl/timemachine/zlib-1.2.3" name="zlib" revision="refs/tags/v1.2.3"/>
+  <project path="ap/gpl/transmission/libevent-2.0.20-stable" name="libevent" revision="refs/tags/release-2.0.20-stable"/>
+  <project path="ap/gpl/transmission/zlib-1.2.3" name="zlib" revision="refs/tags/v1.2.3"/>
   <project path="src/tools/misc/xz" name="xz" revision="refs/tags/v5.0.3"/>
 
   <!-- @origin(oss) @owner(netgear) -->
+  <project path="ap/gpl/amule/libcryptoxx-5.6.0" name="cryptopp"/>
   <project path="ap/gpl/bftpd-1.6.6" name="bftpd"/>
   <project path="ap/gpl/bpalogin" name="bpalogin"/>
   <project path="ap/gpl/bzip2" name="bzip2"/>
@@ -67,6 +72,7 @@
   <project path="ap/gpl/l2tpd-0.69" name="l2tpd"/>
   <project path="ap/gpl/l7filter" name="vendor_netgear_router_l7filter"/>
   <project path="ap/gpl/lua/source/src" name="lua"/>
+  <project path="ap/gpl/Micromax/Linux" name="usbmodem_micromax" revision="master"/>
   <project path="ap/gpl/minidlna/ffmpeg-2.3.4" name="FFmpeg"/>
   <project path="ap/gpl/minidlna/flac-1.2.1" name="flac"/>
   <project path="ap/gpl/minidlna/libid3tag-0.15.0b" name="libid3tag"/>
@@ -74,17 +80,21 @@
   <project path="ap/gpl/minidlna/minidlna-1.0.26" name="minidlna"/>
   <project path="ap/gpl/minidlna/sqlite-3.6.22" name="sqlite"/>
   <project path="ap/gpl/mtools-4.0.10" name="mtools"/>
+  <project path="ap/gpl/netkit-ftp-0.18-pre1" name="netkit-ftp"/>
   <project path="ap/gpl/ntfs-3g-2009.3.8" name="ntfs-3g"/>
   <project path="ap/gpl/openvpn-2.3.1" name="openvpn"/>
+  <project path="ap/gpl/picocom" name="picocom"/>
   <project path="ap/gpl/ppp-2.4.4" name="ppp"/>
   <project path="ap/gpl/pppoecd" name="pppoe"/>
   <project path="ap/gpl/pptp" name="pptpclient"/>
+  <project path="ap/gpl/pptpd/pptpd-1.3.4" name="pptpd"/>
   <project path="ap/gpl/radvd" name="radvd"/>
   <project path="ap/gpl/samba-3.0.25b" name="samba"/>
   <project path="ap/gpl/timemachine/avahi-0.6.25" name="avahi"/>
   <project path="ap/gpl/timemachine/db-4.7.25.NC" name="berkeleydb"/>
   <project path="ap/gpl/timemachine/netatalk-2.2.5" name="Netatalk"/>
   <project path="ap/gpl/timemachine/netatalk-utility" name="wakelan"/>
+  <project path="ap/gpl/transmission/transmission-2.73" name="transmission"/>
   <project path="ap/gpl/udhcpd" name="udhcp"/>
   <project path="ap/gpl/unzip60" name="unzip"/>
   <project path="ap/gpl/wget-1.12" name="wget"/>
@@ -113,7 +123,8 @@
   <!-- @origin(netgear) @owner(netgear) -->
   <project path="ap/acos" name="vendor_netgear_acos"/>
   <project path="project" name="vendor_netgear_router_project">
-    <copyfile src="build_instructions.txt" dest="R7000-V1.0.4.30_1.1.67_build_instructions.txt"/>
+    <copyfile src="build_instructions.txt" dest="R7000-V1.0.5.44_1.1.77_build_instructions.txt"/>
+    <copyfile src="gpl/amule/Makefile" dest="ap/gpl/amule/Makefile"/>
     <copyfile src="gpl/config.in" dest="ap/gpl/config.in"/>
     <copyfile src="gpl/config.mk" dest="ap/gpl/config.mk"/>
     <copyfile src="gpl/curl/Makefile" dest="ap/gpl/curl/Makefile"/>
@@ -125,10 +136,18 @@
     <copyfile src="gpl/iserver/Makefil" dest="ap/gpl/iserver/Makefile"/>
     <copyfile src="gpl/iserver/mount_filesys.sh" dest="ap/gpl/iserver/mount_filesys.sh"/>
     <copyfile src="gpl/iserver/start_forked-daapd.sh" dest="ap/gpl/iserver/start_forked-daapd.sh"/>
+    <copyfile src="gpl/libpng/Makefile" dest="ap/gpl/libpng/Makefile"/>
+    <copyfile src="gpl/libxml2/Makefile" dest="ap/gpl/libxml2-2.7.2/Makefile"/>
+    <copyfile src="gpl/lsync/Makefile" dest="ap/gpl/lsync/Makefile"/>
     <copyfile src="gpl/lua/Makefile" dest="ap/gpl/lua/Makefile"/>
     <copyfile src="gpl/Makefile" dest="ap/gpl/Makefile"/>
+    <copyfile src="gpl/micromax/Makefile" dest="ap/gpl/Micromax/Makefile"/>
+    <copyfile src="gpl/micromax/README" dest="ap/gpl/Micromax/readme.txt"/>
     <copyfile src="gpl/minidlna/Makefile" dest="ap/gpl/minidlna/Makefile"/>
+    <copyfile src="gpl/ncftp/Makefile" dest="ap/gpl/ncftp-3.2.5/Makefile"/>
+    <copyfile src="gpl/pptpd/Makefile" dest="ap/gpl/pptpd/Makefile"/>
     <copyfile src="gpl/timemachine/Makefile" dest="ap/gpl/timemachine/Makefile"/>
+    <copyfile src="gpl/transmission/Makefile" dest="ap/gpl/transmission/Makefile"/>
     <copyfile src="src/router/config_R7000" dest="src/router/.config"/>
     <copyfile src="src/router/iptables-1.4.12/Makefile" dest="src/router/iptables-1.4.12/Makefile"/>
   </project>
