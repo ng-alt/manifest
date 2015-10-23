@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest>
   <remote name="origin" fetch="." review="https://review.gerrithub.io"/>
-  <default remote="origin" revision="refs/tags/R8000-V1.0.2.46_1.0.97" sync-c="1" sync-j="4" upstream="netgear/r8000-ref"/>
+  <default remote="origin" revision="refs/tags/R8000-V1.0.3.4_1.1.2" sync-c="1" sync-j="4" upstream="netgear/r8000-ref"/>
 
   <!-- @origin(oss) @owner(oss) -->
   <project path="ap/gpl/amule/aMule-2.3.1" name="amule" revision="bd75644c0594d23de6276ea5acc0f7a704aec5bf"/>
@@ -32,7 +32,7 @@
   <project path="ap/gpl/minidlna/jpeg-7" name="libjpeg" revision="acc9a4f1ce4a05de8343c33d1f1e90c08237004b"/>
   <project path="ap/gpl/minidlna/libexif-0.6.19" name="libexif" revision="refs/tags/v0.6.19" upstream="offpack/master"/>
   <project path="ap/gpl/minidlna/libogg-1.1.4" name="ogg" revision="refs/tags/v1.1.4"/>
-  <project path="ap/gpl/minidlna/zlib-1.2.3" name="zlib" revision="refs/tags/v1.2.3"/>
+  <project path="ap/gpl/minidlna/zlib-1.2.8" name="zlib" revision="refs/tags/v1.2.8"/>
   <project path="ap/gpl/openssl" name="openssl" revision="refs/tags/OpenSSL_0_9_7f"/>
   <project path="ap/gpl/tcpdump-4.4.0" name="tcpdump" revision="refs/tags/tcpdump-4.4.0"/>
   <project path="ap/gpl/timemachine/expat-2.0.1" name="libexpat" revision="refs/tags/R_2_0_1"/>
@@ -66,14 +66,12 @@
   <project path="ap/gpl/iserver/sqlite-3.6.22" name="sqlite"/>
   <project path="ap/gpl/l2tpd-0.69" name="l2tpd"/>
   <project path="ap/gpl/l7filter" name="vendor_netgear_router_l7filter"/>
-  <project path="ap/gpl/minidlna/ffmpeg-0.5.1" name="FFmpeg"/>
+  <project path="ap/gpl/minidlna/ffmpeg-2.3.4" name="FFmpeg"/>
   <project path="ap/gpl/minidlna/flac-1.2.1" name="flac"/>
   <project path="ap/gpl/minidlna/libid3tag-0.15.0b" name="libid3tag"/>
   <project path="ap/gpl/minidlna/libvorbis-1.2.3" name="libvorbis"/>
   <project path="ap/gpl/minidlna/minidlna-1.0.26" name="minidlna"/>
   <project path="ap/gpl/minidlna/sqlite-3.6.22" name="sqlite"/>
-  <project path="ap/gpl/mtools-4.0.10" name="mtools"/>
-  <project path="ap/gpl/ntfs-3g-2009.3.8" name="ntfs-3g"/>
   <project path="ap/gpl/openvpn-2.3.1" name="openvpn"/>
   <project path="ap/gpl/ppp-2.4.4" name="ppp"/>
   <project path="ap/gpl/pppoecd" name="pppoe"/>
@@ -112,7 +110,7 @@
   <!-- @origin(netgear) @owner(netgear) -->
   <project path="ap/acos" name="vendor_netgear_acos"/>
   <project path="project" name="vendor_netgear_router_project">
-    <copyfile src="build_instructions.txt" dest="R8000-V1.0.2.46_1.0.97_build_instructions.txt"/>
+    <copyfile src="build_instructions.txt" dest="R8000-V1.0.3.4_1.1.2_build_instructions.txt"/>
     <copyfile src="gpl/amule/Makefile" dest="ap/gpl/amule/Makefile"/>
     <copyfile src="gpl/config.in" dest="ap/gpl/config.in"/>
     <copyfile src="gpl/config.mk" dest="ap/gpl/config.mk"/>
