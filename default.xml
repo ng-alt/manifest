@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest>
   <remote name="origin" fetch="." review="https://review.gerrithub.io"/>
-  <default remote="origin" revision="refs/tags/R7000-V1.0.7.6_1.1.99" sync-c="1" sync-j="4" upstream="netgear/r7000-ref"/>
+  <default remote="origin" revision="refs/tags/R7000-V1.0.7.12_1.2.5" sync-c="1" sync-j="4" upstream="netgear/r7000-ref"/>
 
   <!-- @origin(oss) @owner(oss) -->
   <project path="ap/gpl/amule/aMule-2.3.1" name="amule" revision="bd75644c0594d23de6276ea5acc0f7a704aec5bf"/>
@@ -123,7 +123,7 @@
   <!-- @origin(netgear) @owner(netgear) -->
   <project path="ap/acos" name="vendor_netgear_acos"/>
   <project path="project" name="vendor_netgear_router_project">
-    <copyfile src="build_instructions.txt" dest="R7000-V1.0.7.6_1.1.99_build_instructions.txt"/>
+    <copyfile src="build_instructions.txt" dest="R7000-V1.0.7.12_1.2.5_build_instructions.txt"/>
     <copyfile src="gpl/amule/Makefile" dest="ap/gpl/amule/Makefile"/>
     <copyfile src="gpl/config.in" dest="ap/gpl/config.in"/>
     <copyfile src="gpl/config.mk" dest="ap/gpl/config.mk"/>
