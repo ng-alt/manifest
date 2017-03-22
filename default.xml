@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest>
   <remote name="origin" fetch="." review="https://review.gerrithub.io"/>
-  <default remote="origin" revision="refs/tags/R6400-V1.0.1.18_1.0.15" sync-c="1" sync-j="4" upstream="netgear/r6400-ref"/>
+  <default remote="origin" revision="refs/tags/R6400-V1.0.1.22_1.0.17" sync-c="1" sync-j="4" upstream="netgear/r6400-ref"/>
 
   <!-- @origin(oss) @owner(oss) -->
   <project path="ap/gpl/amule/aMule-2.3.1" name="amule" revision="bd75644c0594d23de6276ea5acc0f7a704aec5bf"/>
@@ -34,7 +34,7 @@
   <project path="ap/gpl/minidlna/libogg-1.1.4" name="ogg" revision="refs/tags/v1.1.4"/>
   <project path="ap/gpl/minidlna/zlib-1.2.8" name="zlib" revision="refs/tags/v1.2.8"/>
   <project path="ap/gpl/ncftp-3.2.5" name="ncftp" revision="refs/tags/v3.2.5"/>
-  <project path="ap/gpl/openssl" name="openssl" revision="refs/tags/OpenSSL_1_0_2h"/>
+  <project path="ap/gpl/openssl-1.0.2h" name="openssl" revision="refs/tags/OpenSSL_1_0_2h"/>
   <project path="ap/gpl/tcpdump-4.4.0" name="tcpdump" revision="refs/tags/tcpdump-4.4.0"/>
   <project path="ap/gpl/timemachine/db-4.7.25.NC" name="berkeleydb" revision="refs/tags/v4.7.25.NC"/>
   <project path="ap/gpl/timemachine/expat-2.0.1" name="libexpat" revision="refs/tags/R_2_0_1"/>
@@ -45,10 +45,8 @@
   <project path="ap/gpl/timemachine/libgpg-error-1.10" name="libgpg-error" revision="refs/tags/libgpg-error-1.10"/>
   <project path="ap/gpl/timemachine/libiconv-1.11" name="libiconv" revision="refs/tags/v1.11"/>
   <project path="ap/gpl/timemachine/libxml2-2.7.2" name="libxml2" revision="refs/tags/LIBXML2.7.2"/>
-  <project path="ap/gpl/timemachine/openssl-0.9.8e" name="openssl" revision="refs/tags/OpenSSL_0_9_8e"/>
   <project path="ap/gpl/timemachine/zlib-1.2.3" name="zlib" revision="refs/tags/v1.2.3"/>
   <project path="ap/gpl/transmission/libevent-2.0.20-stable" name="libevent" revision="refs/tags/release-2.0.20-stable"/>
-  <project path="ap/gpl/transmission/openssl" name="openssl" revision="refs/tags/OpenSSL_0_9_7f"/>
   <project path="ap/gpl/transmission/zlib-1.2.3" name="zlib" revision="refs/tags/v1.2.3"/>
   <project path="src/tools/misc/xz" name="xz" revision="refs/tags/v5.0.3"/>
 
@@ -114,7 +112,7 @@
   <!-- @origin(netgear) @owner(netgear) -->
   <project path="ap/acos" name="vendor_netgear_acos"/>
   <project path="project" name="vendor_netgear_router_project">
-    <copyfile src="build_instructions.txt" dest="R6400-V1.0.1.18_1.0.15_build_instructions.txt"/>
+    <copyfile src="build_instructions.txt" dest="R6400-V1.0.1.22_1.0.17_build_instructions.txt"/>
     <copyfile src="gpl/amule/Makefile" dest="ap/gpl/amule/Makefile"/>
     <copyfile src="gpl/config.in" dest="ap/gpl/config.in"/>
     <copyfile src="gpl/config.mk" dest="ap/gpl/config.mk"/>
