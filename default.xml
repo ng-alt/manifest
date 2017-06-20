@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest>
   <remote name="origin" fetch="." review="https://review.gerrithub.io"/>
-  <default remote="origin" revision="refs/tags/R7000-V1.0.8.34_1.2.15" sync-c="1" sync-j="4" upstream="netgear/r7000-ref"/>
+  <default remote="origin" revision="refs/tags/R7000-V1.0.9.6_1.2.19" sync-c="1" sync-j="4" upstream="netgear/r7000-ref"/>
 
   <!-- @origin(oss) @owner(oss) -->
   <project path="ap/gpl/amule/aMule-2.3.1" name="amule" revision="bd75644c0594d23de6276ea5acc0f7a704aec5bf"/>
   <project path="ap/gpl/amule/wxWidgets-2.8.12" name="wxWidgets" revision="refs/tags/v2.8.12"/>
+  <project path="ap/gpl/awsiot" name="aws-iot-device-sdk-embedded-C" revision="refs/tags/v1.0.1"/>
   <project path="ap/gpl/conntrack-tools/conntrack-tools-1.4.0" name="conntrack-tools" revision="refs/tags/conntrack-tools-1.4.0"/>
   <project path="ap/gpl/conntrack-tools/libnetfilter_cthelper-1.0.0" name="libnetfilter_cthelper" revision="refs/tags/libnetfilter_cthelper-1.0.0"/>
   <project path="ap/gpl/conntrack-tools/libnetfilter_cttimeout-1.0.0" name="libnetfilter_cttimeout" revision="refs/tags/libnetfilter_cttimeout-1.0.0"/>
@@ -126,8 +127,10 @@
   <!-- @origin(netgear) @owner(netgear) -->
   <project path="ap/acos" name="vendor_netgear_acos"/>
   <project path="project" name="vendor_netgear_router_project">
-    <copyfile src="build_instructions.txt" dest="R7000-V1.0.8.34_1.2.15_build_instructions.txt"/>
+    <copyfile src="build_instructions.txt" dest="R7000-V1.0.9.6_1.2.19_build_instructions.txt"/>
     <copyfile src="gpl/amule/Makefile" dest="ap/gpl/amule/Makefile"/>
+    <copyfile src="gpl/awsiot/Makefile" dest="ap/gpl/awsiot/Makefile"/>
+    <linkfile src="gpl/awsiot/certs" dest="ap/gpl/awsiot/certs"/>
     <copyfile src="gpl/config.in" dest="ap/gpl/config.in"/>
     <copyfile src="gpl/config.mk" dest="ap/gpl/config.mk"/>
     <copyfile src="gpl/conntrack-tools/Makefile" dest="ap/gpl/conntrack-tools/Makefile"/>
