@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest>
   <remote name="origin" fetch="." review="https://review.gerrithub.io"/>
-  <default remote="origin" revision="refs/tags/R8000-V1.0.3.48_1.1.33" sync-c="1" sync-j="4" upstream="netgear/r8000-ref"/>
+  <default remote="origin" revision="refs/tags/R8000-V1.0.4.2_1.1.41" sync-c="1" sync-j="4" upstream="netgear/r8000-ref"/>
 
   <!-- @origin(oss) @owner(oss) -->
   <project path="ap/gpl/amule/aMule-2.3.1" name="amule" revision="bd75644c0594d23de6276ea5acc0f7a704aec5bf"/>
   <project path="ap/gpl/amule/wxWidgets-2.8.12" name="wxWidgets" revision="refs/tags/v2.8.12"/>
+  <project path="ap/gpl/circle/libmnl" name="libmnl" revision="refs/tags/libmnl-1.0.4"/>
   <project path="ap/gpl/curl/curl-7.36.0" name="curl" revision="refs/tags/curl-7_36_0"/>
   <project path="ap/gpl/GeoIP-1.5.1" name="geoip-api-c" revision="refs/tags/v1.5.1"/>
   <project path="ap/gpl/iperf-2.0.5" name="iperf" revision="refs/tags/v2.0.5"/>
@@ -18,7 +19,7 @@
   <project path="ap/gpl/iserver/libav-0.8.8" name="libav" revision="refs/tags/v0.8.8"/>
   <project path="ap/gpl/iserver/libcsc-0.82.3" name="libcsc" revision="refs/tags/v0.82.3"/>
   <project path="ap/gpl/iserver/libdaemon-0.14" name="libdaemon" revision="refs/tags/v0.14"/>
-  <project path="ap/gpl/iserver/libevent-1.4.14b-stable" name="libevent" revision="refs/tags/release-1.4.14b-stable"/>
+  <project path="ap/gpl/iserver/libevent-2.0.22-stable" name="libevent" revision="refs/tags/release-1.4.14b-stable"/>
   <project path="ap/gpl/iserver/libgcrypt-1.5.0" name="libgcrypt" revision="refs/tags/libgcrypt-1.5.0"/>
   <project path="ap/gpl/iserver/libgpg-error-1.10" name="libgpg-error" revision="refs/tags/libgpg-error-1.10"/>
   <project path="ap/gpl/iserver/libiconv-1.10" name="libiconv" revision="refs/tags/v1.10"/>
@@ -54,6 +55,7 @@
   <project path="ap/gpl/bftpd-1.6.6" name="bftpd"/>
   <project path="ap/gpl/bpalogin" name="bpalogin"/>
   <project path="ap/gpl/bzip2" name="bzip2"/>
+  <project path="ap/gpl/circle/ipset-6.30" name="ipset"/>
   <project path="ap/gpl/dnsmasq-2.15" name="dnsmasq"/>
   <project path="ap/gpl/hd-idle-1.04" name="hd-idle"/>
   <project path="ap/gpl/hdparm-9.43" name="hdparm"/>
@@ -62,7 +64,7 @@
   <project path="ap/gpl/iserver/alsa-lib-1.0.26" name="alsa-lib"/>
   <project path="ap/gpl/iserver/avahi-0.6.25" name="avahi"/>
   <project path="ap/gpl/iserver/avl-0.3.5" name="avl"/>
-  <project path="ap/gpl/iserver/forked-daapd-0.19" name="forked-daapd"/>
+  <project path="ap/gpl/iserver/ejurgensen-forked-daapd" name="forked-daapd"/>
   <project path="ap/gpl/iserver/sqlite-3.6.22" name="sqlite"/>
   <project path="ap/gpl/l2tpd-0.69" name="l2tpd"/>
   <project path="ap/gpl/l7filter" name="vendor_netgear_router_l7filter"/>
@@ -70,14 +72,15 @@
   <project path="ap/gpl/minidlna/flac-1.2.1" name="flac"/>
   <project path="ap/gpl/minidlna/libid3tag-0.15.0b" name="libid3tag"/>
   <project path="ap/gpl/minidlna/libvorbis-1.2.3" name="libvorbis"/>
-  <project path="ap/gpl/minidlna/minidlna-1.0.26" name="minidlna"/>
+  <project path="ap/gpl/minidlna/minidlna-1.1.5" name="minidlna"/>
   <project path="ap/gpl/minidlna/sqlite-3.6.22" name="sqlite"/>
   <project path="ap/gpl/openvpn-2.3.1" name="openvpn"/>
   <project path="ap/gpl/ppp-2.4.4" name="ppp"/>
   <project path="ap/gpl/pppoecd" name="pppoe"/>
   <project path="ap/gpl/pptp" name="pptpclient"/>
   <project path="ap/gpl/radvd" name="radvd"/>
-  <project path="ap/gpl/samba-3.0.25b" name="samba"/>
+  <project path="ap/gpl/samba4/Python-2.7.11" name="cpython"/>
+  <project path="ap/gpl/samba4/samba-4.4.3" name="samba"/>
   <project path="ap/gpl/timemachine/avahi-0.6.25" name="avahi"/>
   <project path="ap/gpl/timemachine/db-4.7.25.NC" name="berkeleydb"/>
   <project path="ap/gpl/timemachine/netatalk-2.2.5" name="Netatalk"/>
@@ -110,8 +113,9 @@
   <!-- @origin(netgear) @owner(netgear) -->
   <project path="ap/acos" name="vendor_netgear_acos"/>
   <project path="project" name="vendor_netgear_router_project">
-    <copyfile src="build_instructions.txt" dest="R8000-V1.0.3.48_1.1.33_build_instructions.txt"/>
+    <copyfile src="build_instructions.txt" dest="R8000-V1.0.4.2_1.1.41_build_instructions.txt"/>
     <copyfile src="gpl/amule/Makefile" dest="ap/gpl/amule/Makefile"/>
+    <copyfile src="gpl/circle/Makefile" dest="ap/gpl/circle/Makefile"/>
     <copyfile src="gpl/config.in" dest="ap/gpl/config.in"/>
     <copyfile src="gpl/config.mk" dest="ap/gpl/config.mk"/>
     <copyfile src="gpl/curl/Makefile" dest="ap/gpl/curl/Makefile"/>
@@ -124,6 +128,8 @@
     <copyfile src="gpl/iserver/start_forked-daapd.sh" dest="ap/gpl/iserver/start_forked-daapd.sh"/>
     <copyfile src="gpl/Makefile" dest="ap/gpl/Makefile"/>
     <copyfile src="gpl/minidlna/Makefile" dest="ap/gpl/minidlna/Makefile"/>
+    <copyfile src="gpl/samba4/Makefile" dest="ap/gpl/samba4/Makefile"/>
+    <copyfile src="gpl/samba4/smb_lib.txt" dest="ap/gpl/samba4/smb_lib.txt"/>
     <copyfile src="gpl/timemachine/Makefile" dest="ap/gpl/timemachine/Makefile"/>
     <copyfile src="gpl/transmission/Makefile" dest="ap/gpl/transmission/Makefile"/>
     <copyfile src="src/router/config_R8000" dest="src/router/.config"/>
