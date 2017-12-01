@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest>
   <remote name="origin" fetch="." review="https://review.gerrithub.io"/>
-  <default remote="origin" revision="refs/tags/R6400-V1.0.1.24_1.0.18" sync-c="1" sync-j="4" upstream="netgear/r6400-ref"/>
+  <default remote="origin" revision="refs/tags/R6400-V1.0.1.32_1.0.23" sync-c="1" sync-j="4" upstream="netgear/r6400-ref"/>
 
   <!-- @origin(oss) @owner(oss) -->
   <project path="ap/gpl/amule/aMule-2.3.1" name="amule" revision="bd75644c0594d23de6276ea5acc0f7a704aec5bf"/>
@@ -53,7 +53,6 @@
   <!-- @origin(oss) @owner(netgear) -->
   <project path="ap/gpl/amule/libcryptoxx-5.6.0" name="cryptopp"/>
   <project path="ap/gpl/bftpd-1.6.6" name="bftpd"/>
-  <project path="ap/gpl/bpalogin" name="bpalogin"/>
   <project path="ap/gpl/bzip2" name="bzip2"/>
   <project path="ap/gpl/dnsmasq-2.15" name="dnsmasq"/>
   <project path="ap/gpl/hd-idle-1.04" name="hd-idle"/>
@@ -80,7 +79,8 @@
   <project path="ap/gpl/pppoecd" name="pppoe"/>
   <project path="ap/gpl/pptp" name="pptpclient"/>
   <project path="ap/gpl/radvd" name="radvd"/>
-  <project path="ap/gpl/samba-3.0.25b" name="samba"/>
+  <project path="ap/gpl/samba4/Python-2.7.11" name="cpython"/>
+  <project path="ap/gpl/samba4/samba-4.4.3" name="samba"/>
   <project path="ap/gpl/timemachine/avahi-0.6.25" name="avahi"/>
   <project path="ap/gpl/timemachine/netatalk-2.2.5" name="Netatalk"/>
   <project path="ap/gpl/timemachine/netatalk-utility" name="wakelan"/>
@@ -112,7 +112,7 @@
   <!-- @origin(netgear) @owner(netgear) -->
   <project path="ap/acos" name="vendor_netgear_acos"/>
   <project path="project" name="vendor_netgear_router_project">
-    <copyfile src="build_instructions.txt" dest="R6400-V1.0.1.24_1.0.18_build_instructions.txt"/>
+    <copyfile src="build_instructions.txt" dest="R6400-V1.0.1.32_1.0.23_build_instructions.txt"/>
     <copyfile src="gpl/amule/Makefile" dest="ap/gpl/amule/Makefile"/>
     <copyfile src="gpl/config.in" dest="ap/gpl/config.in"/>
     <copyfile src="gpl/config.mk" dest="ap/gpl/config.mk"/>
@@ -126,6 +126,8 @@
     <copyfile src="gpl/iserver/start_forked-daapd.sh" dest="ap/gpl/iserver/start_forked-daapd.sh"/>
     <copyfile src="gpl/Makefile" dest="ap/gpl/Makefile"/>
     <copyfile src="gpl/minidlna/Makefile" dest="ap/gpl/minidlna/Makefile"/>
+    <copyfile src="gpl/samba4/Makefile" dest="ap/gpl/samba4/Makefile"/>
+    <copyfile src="gpl/samba4/smb_lib.txt" dest="ap/gpl/samba4/smb_lib.txt"/>
     <copyfile src="gpl/timemachine/Makefile" dest="ap/gpl/timemachine/Makefile"/>
     <copyfile src="gpl/transmission/Makefile" dest="ap/gpl/transmission/Makefile"/>
     <copyfile src="src/router/iptables-1.4.12/Makefile" dest="src/router/iptables-1.4.12/Makefile"/>
