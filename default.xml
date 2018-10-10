@@ -1,78 +1,66 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="origin" fetch="." review="https://review.gerrithub.io"/>
   <default remote="origin" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85" sync-c="1" sync-j="4" upstream="netgear/r6300v2-ref"/>
 
   <!-- @origin(oss) @owner(oss) -->
-  <project path="ap/gpl/curl-7.23.1/source" name="curl" revision="refs/tags/curl-7_23_1"/>
-  <project path="ap/gpl/GeoIP-1.5.1" name="geoip-api-c" revision="refs/tags/v1.5.1"/>
-  <project path="ap/gpl/libpcap-1.4.0" name="libpcap" revision="refs/tags/libpcap-1.4.0"/>
-  <project path="ap/gpl/lzo-2.06" name="lzo" revision="2905e8a5ff5fc5b87df54851180a7004517e3988"/>
-  <project path="ap/gpl/minidlna/libexif-0.6.19" name="libexif" revision="refs/tags/libexif-0_6_19-release"/>
-  <project path="ap/gpl/minidlna/jpeg-7" name="libjpeg" revision="acc9a4f1ce4a05de8343c33d1f1e90c08237004b"/>
-  <project path="ap/gpl/minidlna/libogg-1.1.4" name="ogg" revision="refs/tags/v1.1.4"/>
-  <project path="ap/gpl/minidlna/zlib-1.2.3" name="zlib" revision="refs/tags/v1.2.3"/>
-  <project path="ap/gpl/openssl" name="openssl" revision="refs/tags/OpenSSL_0_9_7f"/>
-  <project path="ap/gpl/tcpdump-4.4.0" name="tcpdump" revision="refs/tags/tcpdump-4.4.0"/>
-  <project path="ap/gpl/wget-1.12" name="wget" revision="refs/tags/v1.12"/>
-  <project path="src/tools/misc/xz" name="xz" revision="refs/tags/v5.0.3"/>
+  <project path="external/curl" name="curl" revision="refs/tags/curl-7_23_1"/>
+  <project path="external/geoip" name="geoip-api-c" revision="refs/tags/v1.5.1"/>
+  <project path="external/libpcap" name="libpcap" revision="refs/tags/libpcap-1.4.0"/>
+  <project path="external/libexif" name="libexif" revision="refs/tags/libexif-0_6_19-release"/>
+  <project path="external/libjpeg" name="libjpeg" revision="acc9a4f1ce4a05de8343c33d1f1e90c08237004b"/>
+  <project path="external/libogg" name="ogg" revision="refs/tags/v1.1.4"/>
+  <project path="external/lzo" name="lzo" revision="2905e8a5ff5fc5b87df54851180a7004517e3988"/>
+  <project path="external/openssl" name="openssl" revision="refs/tags/OpenSSL_0_9_7f"/>
+  <project path="external/tcpdump" name="tcpdump" revision="refs/tags/tcpdump-4.4.0"/>
+  <project path="external/wget" name="wget" revision="refs/tags/v1.12"/>
+  <project path="external/xz" name="xz" revision="refs/tags/v5.0.3"/>
+  <project path="external/zlib" name="zlib" revision="refs/tags/v1.2.3"/>
 
   <!-- @origin(oss) @owner(netgear) -->
-  <project path="ap/gpl/bftpd-1.6.6" name="bftpd"/>
-  <project path="ap/gpl/bzip2" name="bzip2"/>
-  <project path="ap/gpl/dnsmasq-2.15" name="dnsmasq"/>
-  <project path="ap/gpl/IGMP-PROXY" name="igmpv3proxy"/>
-  <project path="ap/gpl/iproute2" name="iproute2"/>
-  <project path="ap/gpl/l2tpd-0.69" name="l2tpd"/>
-  <project path="ap/gpl/l7filter" name="vendor_netgear_router_l7filter"/>
-  <project path="ap/gpl/minidlna/ffmpeg-0.5.1" name="FFmpeg"/>
-  <project path="ap/gpl/minidlna/flac-1.2.1" name="flac"/>
-  <project path="ap/gpl/minidlna/libid3tag-0.15.0b" name="libid3tag"/>
-  <project path="ap/gpl/minidlna/libvorbis-1.2.3" name="libvorbis"/>
-  <project path="ap/gpl/minidlna/minidlna.03.14" name="minidlna"/>
-  <project path="ap/gpl/minidlna/sqlite-3.6.22" name="sqlite"/>
-  <project path="ap/gpl/openvpn-2.3.1" name="openvpn"/>
-  <project path="ap/gpl/ppp-2.4.4" name="ppp"/>
-  <project path="ap/gpl/pppoecd" name="pppoe"/>
-  <project path="ap/gpl/pptp" name="pptpclient"/>
-  <project path="ap/gpl/radvd" name="radvd"/>
-  <project path="ap/gpl/samba-3.0.25b" name="samba"/>
-  <project path="ap/gpl/udhcpd" name="udhcp"/>
-  <project path="ap/gpl/unzip60" name="unzip"/>
-  <project path="ap/gpl/zebra" name="quagga"/>
-  <project path="ap/gpl/zeroconf-0.9" name="zeroconf"/>
-  <project path="ap/gpl/zip30" name="zip"/>
-  <project path="components/opensource/linux/linux-2.6.36" name="linux"/>
-  <project path="src/router/bridge-1.x" name="bridge-utils"/>
-  <project path="src/router/busybox-1.x" name="busybox"/>
-  <project path="src/router/dhcp6" name="dhcpv6"/>
-  <project path="src/router/flex" name="flex"/>
-  <project path="src/router/hotplug2" name="hotplug2"/>
-  <project path="src/router/iptables-1.4.12/src" name="iptables"/>
-  <project path="src/router/ntpclient" name="ntpclient"/>
-  <project path="src/router/squashfs-4.2" name="squashfs-tools"/>
-  <project path="src/router/udev" name="udev"/>
-  <project path="src/router/vlan" name="vlan"/>
-  <project path="src/tools/misc/lzma_src" name="LZMA-SDK"/>
+  <project path="external/bftpd" name="bftpd"/>
+  <project path="external/bridge-utils" name="bridge-utils"/>
+  <project path="external/busybox" name="busybox"/>
+  <project path="external/bzip2" name="bzip2"/>
+  <project path="external/dhcp" name="dhcpv6"/>
+  <project path="external/dnsmasq" name="dnsmasq"/>
+  <project path="external/ffmpeg" name="FFmpeg"/>
+  <project path="external/flac" name="flac"/>
+  <project path="external/flex" name="flex"/>
+  <project path="external/hotplug2" name="hotplug2"/>
+  <project path="external/igmpv3proxy" name="igmpv3proxy"/>
+  <project path="external/iproute2" name="iproute2"/>
+  <project path="external/iptables" name="iptables"/>
+  <project path="external/l2tpd" name="l2tpd"/>
+  <project path="external/l7filter" name="vendor_netgear_router_l7filter"/>
+  <project path="external/libid3tag" name="libid3tag"/>
+  <project path="external/libvorbis" name="libvorbis"/>
+  <project path="external/lzma-sdk" name="LZMA-SDK"/>
+  <project path="external/minidlna" name="minidlna"/>
+  <project path="external/ntpclient" name="ntpclient"/>
+  <project path="external/openvpn" name="openvpn"/>
+  <project path="external/pppd" name="ppp"/>
+  <project path="external/pppoecd" name="pppoe"/>
+  <project path="external/pptp" name="pptpclient"/>
+  <project path="external/radvd" name="radvd"/>
+  <project path="external/samba" name="samba"/>
+  <project path="external/sqlite" name="sqlite"/>
+  <project path="external/squashfs" name="squashfs-tools"/>
+  <project path="external/udev" name="udev"/>
+  <project path="external/udhcpd" name="udhcp"/>
+  <project path="external/unzip" name="unzip"/>
+  <project path="external/vlan" name="vlan"/>
+  <project path="external/zebra" name="quagga"/>
+  <project path="external/zeroconf" name="zeroconf"/>
+  <project path="external/zip" name="zip"/>
+  <project path="kernel" name="linux"/>
 
   <!-- @origin(broadcom) @owner(netgear) -->
-  <project path="src/" name="vendor_broadcom_router_base"/>
-  <project path="src/router" name="vendor_broadcom_router"/>
-  <project path="tools" name="vendor_broadcom_router_tools"/>
+  <project path="prebuilts/router/tools" name="vendor_broadcom_router_tools"/>
+  <project path="vendor/netgear/base" name="vendor_broadcom_router_base"/>
+  <project path="vendor/netgear/router" name="vendor_broadcom_router"/>
 
   <!-- @origin(netgear) @owner(netgear) -->
-  <project path="ap/acos" name="vendor_netgear_acos"/>
-  <project path="project" name="vendor_netgear_router_project">
-    <copyfile src="build_instructions.txt" dest="R6300v2-V1.0.4.20_10.0.85_build_instructions.txt"/>
-    <copyfile src="gpl/curl-7.23.1/make_arm.sh" dest="ap/gpl/curl-7.23.1/make_arm.sh"/>
-    <copyfile src="gpl/curl-7.23.1/Makefile" dest="ap/gpl/curl-7.23.1/Makefile"/>
-    <copyfile src="gpl/curl-7.23.1/Makefile_arm" dest="ap/gpl/curl-7.23.1/Makefile_arm"/>
-    <copyfile src="gpl/curl-7.23.1/make.sh" dest="ap/gpl/curl-7.23.1/make.sh"/>
-    <copyfile src="gpl/config.in" dest="ap/gpl/config.in"/>
-    <copyfile src="gpl/config.mk" dest="ap/gpl/config.mk"/>
-    <copyfile src="gpl/Makefile" dest="ap/gpl/Makefile"/>
-    <copyfile src="gpl/minidlna/Makefile" dest="ap/gpl/minidlna/Makefile"/>
-    <copyfile src="src/router/iptables-1.4.12/Makefile" dest="src/router/iptables-1.4.12/Makefile"/>
-  </project>
-  <project path="src/prebuilt/WW" name="vendor_netgear_router_prebuilt"/>
+  <project path="vendor/netgear/acos" name="vendor_netgear_acos"/>
+  <project path="vendor/netgear/router/arm-uclibc/install/prebuilt" name="vendor_netgear_router_prebuilt"/>
 </manifest>
