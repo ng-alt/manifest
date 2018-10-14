@@ -12,6 +12,7 @@
   <project path="external/libogg" name="ogg" revision="refs/tags/v1.1.4"/>
   <project path="external/lzo" name="lzo" revision="2905e8a5ff5fc5b87df54851180a7004517e3988"/>
   <project path="external/openssl" name="openssl" revision="refs/tags/OpenSSL_0_9_7f"/>
+  <project path="external/squashfs" name="squashfs-tools" revision="70b2bdb5d976f2976cb7bcf10a319769d405ac55"/>
   <project path="external/tcpdump" name="tcpdump" revision="refs/tags/tcpdump-4.4.0"/>
   <project path="external/wget" name="wget" revision="refs/tags/v1.12"/>
   <project path="external/xz" name="xz" revision="refs/tags/v5.0.3"/>
@@ -45,7 +46,6 @@
   <project path="external/radvd" name="radvd" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
   <project path="external/samba" name="samba" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
   <project path="external/sqlite" name="sqlite" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
-  <project path="external/squashfs" name="squashfs-tools" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
   <project path="external/udev" name="udev" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
   <project path="external/udhcpd" name="udhcp" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
   <project path="external/unzip" name="unzip" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
