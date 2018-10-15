@@ -11,7 +11,7 @@
   <project path="external/libjpeg" name="libjpeg" revision="acc9a4f1ce4a05de8343c33d1f1e90c08237004b"/>
   <project path="external/libogg" name="ogg" revision="refs/tags/v1.1.4"/>
   <project path="external/lzo" name="lzo" revision="2905e8a5ff5fc5b87df54851180a7004517e3988"/>
-  <project path="external/openssl" name="openssl" revision="refs/tags/OpenSSL_0_9_7f"/>
+  <project path="external/openssl" name="openssl" revision="refs/tags/OpenSSL_1_0_2h"/>
   <project path="external/squashfs" name="squashfs-tools" revision="70b2bdb5d976f2976cb7bcf10a319769d405ac55"/>
   <project path="external/tcpdump" name="tcpdump" revision="refs/tags/tcpdump-4.4.0"/>
   <project path="external/wget" name="wget" revision="refs/tags/v1.12"/>
