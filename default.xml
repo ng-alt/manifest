@@ -7,7 +7,7 @@
   <project path="external/curl" name="curl" revision="refs/tags/curl-7_23_1"/>
   <project path="external/geoip" name="geoip-api-c" revision="refs/tags/v1.5.1"/>
   <project path="external/libpcap" name="libpcap" revision="refs/tags/libpcap-1.4.0"/>
-  <project path="external/libexif" name="libexif" revision="refs/tags/libexif-0_6_19-release"/>
+  <project path="external/libexif" name="libexif" revision="refs/tags/v0.6.19" upstream="offpack/master"/>
   <project path="external/libjpeg" name="libjpeg" revision="acc9a4f1ce4a05de8343c33d1f1e90c08237004b"/>
   <project path="external/libogg" name="ogg" revision="refs/tags/v1.1.4"/>
   <project path="external/lzo" name="lzo" revision="2905e8a5ff5fc5b87df54851180a7004517e3988"/>
