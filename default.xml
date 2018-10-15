@@ -46,7 +46,6 @@
   <project path="external/alsa-lib" name="alsa-lib" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
   <project path="external/avahi" name="avahi" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
   <project path="external/bftpd" name="bftpd" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/bridge-utils" name="bridge-utils" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
   <project path="external/busybox" name="busybox" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
   <project path="external/bzip2" name="bzip2" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
   <project path="external/dhcp" name="dhcpv6" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
@@ -105,6 +104,9 @@
 
   <!-- @origin(oss) @owner(i4u) -->
   <project path="build" name="buildroot" revision="i4u/router/master"/>
+
+  <!-- @origin(oss) @vendor(netgear) @owner(i4u) -->
+  <project path="external/bridge-utils" name="bridge-utils"/>
   <project path="kernel" name="linux" revision="i4u/netgear/r6400"/>
 
   <!-- @origin(i4u) @owner(i4u) -->
