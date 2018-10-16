@@ -92,10 +92,10 @@
   <!-- @origin(broadcom) @owner(netgear) -->
   <project path="prebuilts/router/tools" name="vendor_broadcom_router_tools" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
   <project path="vendor/netgear/base" name="vendor_broadcom_router_base" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="vendor/netgear/router" name="vendor_broadcom_router" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
 
   <!-- @origin(broadcom) @owner(i4u) -->
   <project path="prebuilts/arm/arm-linux-2.6.36-uclibc-4.5.3" name="hndtools-arm-linux-2.6.36-uclibc-4.5.3" revision="i4u/arm-linux-2.6.36-uclibc-4.5.3/x64/master"/>
+  <project path="vendor/netgear/router" name="vendor_broadcom_router"/>
 
   <!-- @origin(netgear) @owner(netgear) -->
   <project path="vendor/netgear/acos" name="vendor_netgear_acos" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
