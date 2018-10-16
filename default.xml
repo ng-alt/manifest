@@ -42,7 +42,6 @@
   <project path="external/pppd" name="ppp" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
   <project path="external/pppoecd" name="pppoe" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
   <project path="external/pptp" name="pptpclient" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
-  <project path="external/samba" name="samba" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
   <project path="external/sqlite" name="sqlite" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
   <project path="external/udev" name="udev" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
   <project path="external/udhcpd" name="udhcp" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
@@ -70,6 +69,7 @@
   <project path="external/bridge-utils" name="bridge-utils"/>
   <project path="external/minidlna" name="minidlna"/>
   <project path="external/radvd" name="radvd"/>
+  <project path="external/samba" name="samba"/>
 
   <!-- @origin(oss) @owner(i4u) -->
   <project path="build" name="buildroot" revision="i4u/router/master"/>
