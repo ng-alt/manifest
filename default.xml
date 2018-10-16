@@ -76,7 +76,6 @@
   <project path="external/pppoecd" name="pppoe" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
   <project path="external/pptp" name="pptpclient" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
   <project path="external/python" name="cpython" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/radvd" name="radvd" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
   <project path="external/samba4" name="samba" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
   <project path="external/sqlite" name="sqlite" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
   <project path="external/transmission" name="transmission" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
@@ -107,6 +106,7 @@
   <!-- @origin(oss) @vendor(netgear) @owner(i4u) -->
   <project path="external/bridge-utils" name="bridge-utils"/>
   <project path="external/minidlna" name="minidlna"/>
+  <project path="external/radvd" name="radvd"/>
   <project path="kernel" name="linux" revision="i4u/netgear/r6400"/>
 
   <!-- @origin(i4u) @owner(i4u) -->
