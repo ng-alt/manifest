@@ -67,7 +67,6 @@
   <project path="external/libid3tag" name="libid3tag" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
   <project path="external/libvorbis" name="libvorbis" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
   <project path="external/lzma-sdk" name="LZMA-SDK" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/minidlna" name="minidlna" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
   <project path="external/mtools" name="mtools" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
   <project path="external/netatalk" name="Netatalk" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
   <project path="external/ntfs-3g" name="ntfs-3g" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
@@ -107,6 +106,7 @@
 
   <!-- @origin(oss) @vendor(netgear) @owner(i4u) -->
   <project path="external/bridge-utils" name="bridge-utils"/>
+  <project path="external/minidlna" name="minidlna"/>
   <project path="kernel" name="linux" revision="i4u/netgear/r6400"/>
 
   <!-- @origin(i4u) @owner(i4u) -->
