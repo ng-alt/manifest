@@ -37,7 +37,6 @@
   <project path="external/libid3tag" name="libid3tag" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
   <project path="external/libvorbis" name="libvorbis" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
   <project path="external/lzma-sdk" name="LZMA-SDK" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
-  <project path="external/minidlna" name="minidlna" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
   <project path="external/ntpclient" name="ntpclient" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
   <project path="external/openvpn" name="openvpn" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
   <project path="external/pppd" name="ppp" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
@@ -68,6 +67,7 @@
 
   <!-- @origin(oss) @vendor(netgear) @owner(i4u) -->
   <project path="external/bridge-utils" name="bridge-utils"/>
+  <project path="external/minidlna" name="minidlna"/>
 
   <!-- @origin(oss) @owner(i4u) -->
   <project path="build" name="buildroot" revision="i4u/router/master"/>
