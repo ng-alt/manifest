@@ -55,7 +55,6 @@
   <!-- @origin(broadcom) @owner(netgear) -->
   <project path="prebuilts/router/tools" name="vendor_broadcom_router_tools" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
   <project path="vendor/netgear/base" name="vendor_broadcom_router_base" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
-  <project path="vendor/netgear/router" name="vendor_broadcom_router" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
 
   <!-- @origin(netgear) @owner(netgear) -->
   <project path="vendor/netgear/acos" name="vendor_netgear_acos" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
@@ -63,6 +62,9 @@
 
   <!-- @origin(broadcom) @owner(i4u) -->
   <project path="prebuilts/arm/arm-linux-2.6.36-uclibc-4.5.3" name="hndtools-arm-linux-2.6.36-uclibc-4.5.3" revision="i4u/arm-linux-2.6.36-uclibc-4.5.3/x64/master"/>
+
+  <!-- @origin(broadcom) @owner(i4u) -->
+  <project path="vendor/netgear/router" name="vendor_broadcom_router"/>
 
   <!-- @origin(oss) @vendor(netgear) @owner(i4u) -->
   <project path="external/bridge-utils" name="bridge-utils"/>
