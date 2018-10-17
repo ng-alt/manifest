@@ -25,7 +25,6 @@
   <project path="external/bzip2" name="bzip2" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
   <project path="external/dhcp" name="dhcpv6" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
   <project path="external/dnsmasq" name="dnsmasq" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
-  <project path="external/ffmpeg" name="FFmpeg" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
   <project path="external/flac" name="flac" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
   <project path="external/flex" name="flex" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
   <project path="external/hotplug2" name="hotplug2" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
@@ -67,6 +66,7 @@
 
   <!-- @origin(oss) @vendor(netgear) @owner(i4u) -->
   <project path="external/bridge-utils" name="bridge-utils"/>
+  <project path="external/ffmpeg" name="FFmpeg"/>
   <project path="external/minidlna" name="minidlna"/>
   <project path="external/radvd" name="radvd"/>
   <project path="external/samba" name="samba"/>
