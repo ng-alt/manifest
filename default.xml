@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="origin" fetch="." review="https://review.gerrithub.io"/>
-  <default remote="origin" revision="i4u/netgear/r6300v2" sync-c="1" sync-j="4" upstream="netgear/r6300v2-ref"/>
+  <default remote="origin" revision="i4u/merlin/r6300v2" sync-c="1" sync-j="4" upstream="merlin/master-ref"/>
 
   <!-- @origin(oss) @owner(oss) -->
   <project path="external/berkeleydb" name="berkeleydb" revision="refs/tags/v4.8.30"/>
