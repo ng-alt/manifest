@@ -72,6 +72,7 @@
   <project path="external/igmpproxy" name="igmpproxy" revision="merlin/master-ref"/>
   <project path="external/iptables" name="iptables" revision="merlin/master-ref"/>
   <project path="external/l7protocols" name="l7-protocols" revision="merlin/master-ref"/>
+  <project path="external/libsmbclient" name="samba" revision="merlin/libsmbclient-master-ref"/>
   <project path="external/libusb" name="libusb" revision="merlin/master-ref"/>
   <project path="external/libusb-compat" name="libusb-compat" revision="merlin/master-ref"/>
   <project path="external/lighttpd" name="lighttpd" revision="merlin/master-ref"/>
