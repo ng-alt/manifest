@@ -96,7 +96,6 @@
     "tor": "0.2.9.14",
     "udev": "113",
     "udhcpd": "0_9_8",
-    "unzip": "v6.0",
     "uqmi": "N/A",
     "usb-modeswitch": "2.3.0",
     "vlan": "v1.6",
@@ -105,7 +104,6 @@
     "xz": "v5.0.3",
     "zebra": "0.93a",
     "zeroconf": "v0.9",
-    "zip": "v3.0",
     "zlib": "v1.2.8"
   }
 }
