@@ -91,6 +91,12 @@
   <project path="external/samba" name="samba" revision="merlin/master-ref"/>
   <project path="external/uqmi/libubox" name="libubox" revision="merlin/master-ref"/>
   <project path="external/vsftpd" name="vsftpd" revision="merlin/master-ref"/>
+  <project path="vendor/asus/router/asusnatnl/pjproject-1.12" name="pjproject" revision="merlin/master-ref"/>
+  <project path="vendor/asus/router/asusnatnl/pjproject-1.12/third_party/bzip2" name="bzip2" revision="merlin/pjproject-master-ref"/>
+  <project path="vendor/asus/router/asusnatnl/pjproject-1.12/third_party/portaudio" name="portaudio" revision="merlin/pjproject-master-ref"/>
+  <project path="vendor/asus/router/asusnatnl/pjproject-1.12/third_party/umem" name="umem" revision="merlin/pjproject-master-ref"/>
+  <project path="vendor/asus/router/asusnatnl/pjproject-1.12/third_party/usrsctp" name="usrsctp" revision="merlin/pjproject-master-ref"/>
+  <project path="vendor/asus/router/asusnatnl/udt" name="udt4" revision="merlin/master-ref"/>
 
   <!-- @origin(oss) @owner(netgear) -->
   <project path="external/lzma-sdk" name="LZMA-SDK" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
