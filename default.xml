@@ -20,43 +20,44 @@
   <project path="external/zlib" name="zlib" revision="refs/tags/v1.2.8"/>
 
   <!-- @origin(oss) @owner(netgear) -->
-  <project path="external/bftpd" name="bftpd" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
-  <project path="external/busybox" name="busybox" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
-  <project path="external/bzip2" name="bzip2" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
-  <project path="external/dhcp" name="dhcpv6" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
-  <project path="external/dnsmasq" name="dnsmasq" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
-  <project path="external/flac" name="flac" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
-  <project path="external/flex" name="flex" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
-  <project path="external/hotplug2" name="hotplug2" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
-  <project path="external/igmpv3proxy" name="igmpv3proxy" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
-  <project path="external/iproute2" name="iproute2" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
-  <project path="external/iptables" name="iptables" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
-  <project path="external/l2tpd" name="l2tpd" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
-  <project path="external/l7filter" name="vendor_netgear_router_l7filter" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
-  <project path="external/libid3tag" name="libid3tag" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
-  <project path="external/libvorbis" name="libvorbis" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
-  <project path="external/lzma-sdk" name="LZMA-SDK" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
-  <project path="external/ntpclient" name="ntpclient" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
-  <project path="external/openvpn" name="openvpn" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
-  <project path="external/pppd" name="ppp" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
-  <project path="external/pppoecd" name="pppoe" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
-  <project path="external/pptp" name="pptpclient" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
-  <project path="external/sqlite" name="sqlite" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
-  <project path="external/udev" name="udev" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
-  <project path="external/udhcpd" name="udhcp" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
-  <project path="external/unzip" name="unzip" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
-  <project path="external/vlan" name="vlan" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
-  <project path="external/zebra" name="quagga" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
-  <project path="external/zeroconf" name="zeroconf" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
-  <project path="external/zip" name="zip" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
+  <project path="external/bftpd" name="bftpd" revision="refs/tags/R6300v2-V1.0.4.32_10.0.91"/>
+  <project path="external/busybox" name="busybox" revision="refs/tags/R6300v2-V1.0.4.32_10.0.91"/>
+  <project path="external/bzip2" name="bzip2" revision="refs/tags/R6300v2-V1.0.4.32_10.0.91"/>
+  <project path="external/dhcp" name="dhcpv6" revision="refs/tags/R6300v2-V1.0.4.32_10.0.91"/>
+  <project path="external/dnsmasq" name="dnsmasq" revision="refs/tags/R6300v2-V1.0.4.32_10.0.91"/>
+  <project path="external/flac" name="flac" revision="refs/tags/R6300v2-V1.0.4.32_10.0.91"/>
+  <project path="external/flex" name="flex" revision="refs/tags/R6300v2-V1.0.4.32_10.0.91"/>
+  <project path="external/hotplug2" name="hotplug2" revision="refs/tags/R6300v2-V1.0.4.32_10.0.91"/>
+  <project path="external/igmpv3proxy" name="igmpv3proxy" revision="refs/tags/R6300v2-V1.0.4.32_10.0.91"/>
+  <project path="external/iproute2" name="iproute2" revision="refs/tags/R6300v2-V1.0.4.32_10.0.91"/>
+  <project path="external/iptables" name="iptables" revision="refs/tags/R6300v2-V1.0.4.32_10.0.91"/>
+  <project path="external/l2tpd" name="l2tpd" revision="refs/tags/R6300v2-V1.0.4.32_10.0.91"/>
+  <project path="external/l7filter" name="vendor_netgear_router_l7filter" revision="refs/tags/R6300v2-V1.0.4.32_10.0.91"/>
+  <project path="external/libid3tag" name="libid3tag" revision="refs/tags/R6300v2-V1.0.4.32_10.0.91"/>
+  <project path="external/libvorbis" name="libvorbis" revision="refs/tags/R6300v2-V1.0.4.32_10.0.91"/>
+  <project path="external/lzma-sdk" name="LZMA-SDK" revision="refs/tags/R6300v2-V1.0.4.32_10.0.91"/>
+  <project path="external/ntpclient" name="ntpclient" revision="refs/tags/R6300v2-V1.0.4.32_10.0.91"/>
+  <project path="external/openvpn" name="openvpn" revision="refs/tags/R6300v2-V1.0.4.32_10.0.91"/>
+  <project path="external/pppd" name="ppp" revision="refs/tags/R6300v2-V1.0.4.32_10.0.91"/>
+  <project path="external/pppoecd" name="pppoe" revision="refs/tags/R6300v2-V1.0.4.32_10.0.91"/>
+  <project path="external/pptp" name="pptpclient" revision="refs/tags/R6300v2-V1.0.4.32_10.0.91"/>
+  <project path="external/samba4" name="samba" revision="refs/tags/R6300v2-V1.0.4.32_10.0.91"/>
+  <project path="external/sqlite" name="sqlite" revision="refs/tags/R6300v2-V1.0.4.32_10.0.91"/>
+  <project path="external/udev" name="udev" revision="refs/tags/R6300v2-V1.0.4.32_10.0.91"/>
+  <project path="external/udhcpd" name="udhcp" revision="refs/tags/R6300v2-V1.0.4.32_10.0.91"/>
+  <project path="external/unzip" name="unzip" revision="refs/tags/R6300v2-V1.0.4.32_10.0.91"/>
+  <project path="external/vlan" name="vlan" revision="refs/tags/R6300v2-V1.0.4.32_10.0.91"/>
+  <project path="external/zebra" name="quagga" revision="refs/tags/R6300v2-V1.0.4.32_10.0.91"/>
+  <project path="external/zeroconf" name="zeroconf" revision="refs/tags/R6300v2-V1.0.4.32_10.0.91"/>
+  <project path="external/zip" name="zip" revision="refs/tags/R6300v2-V1.0.4.32_10.0.91"/>
 
   <!-- @origin(broadcom) @owner(netgear) -->
-  <project path="prebuilts/router/tools" name="vendor_broadcom_router_tools" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
-  <project path="vendor/netgear/base" name="vendor_broadcom_router_base" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
+  <project path="prebuilts/router/tools" name="vendor_broadcom_router_tools" revision="refs/tags/R6300v2-V1.0.4.32_10.0.91"/>
+  <project path="vendor/netgear/base" name="vendor_broadcom_router_base" revision="refs/tags/R6300v2-V1.0.4.32_10.0.91"/>
 
   <!-- @origin(netgear) @owner(netgear) -->
-  <project path="vendor/netgear/acos" name="vendor_netgear_acos" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
-  <project path="vendor/netgear/router/arm-uclibc/install/prebuilt" name="vendor_netgear_router_prebuilt" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
+  <project path="vendor/netgear/acos" name="vendor_netgear_acos" revision="refs/tags/R6300v2-V1.0.4.32_10.0.91"/>
+  <project path="vendor/netgear/router/arm-uclibc/install/prebuilt" name="vendor_netgear_router_prebuilt" revision="refs/tags/R6300v2-V1.0.4.32_10.0.91"/>
 
   <!-- @origin(broadcom) @owner(i4u) -->
   <project path="prebuilts/arm/arm-linux-2.6.36-uclibc-4.5.3" name="hndtools-arm-linux-2.6.36-uclibc-4.5.3" revision="i4u/arm-linux-2.6.36-uclibc-4.5.3/x64/master"/>
@@ -68,8 +69,8 @@
   <project path="external/bridge-utils" name="bridge-utils"/>
   <project path="external/ffmpeg" name="FFmpeg"/>
   <project path="external/minidlna" name="minidlna"/>
+  <project path="external/python" name="cpython"/>
   <project path="external/radvd" name="radvd"/>
-  <project path="external/samba" name="samba"/>
 
   <!-- @origin(oss) @owner(i4u) -->
   <project path="build" name="buildroot" revision="i4u/router/master"/>
