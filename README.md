@@ -6,7 +6,7 @@ the code could be compiled with the commands:
 
 ```bash
 $ source build/envsetup.sh
-$ lunch r6300v2
+$ lunch r6300v2-merlin
 $ make
 ```
 
