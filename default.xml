@@ -8,7 +8,7 @@
   <project path="external/berkeleydb" name="berkeleydb" revision="refs/tags/v4.7.25.NC"/>
   <project path="external/dbus" name="dbus" revision="refs/tags/dbus-1.6.8"/>
   <project path="external/expat" name="libexpat" revision="refs/tags/R_2_0_1"/>
-  <project path="external/gdbm" name="gdbm" revision="refs/tags/v1.8.3"/>
+  <project path="external/gdbm" name="gdbm" revision="refs/tags/v1.11"/>
   <project path="external/geoip" name="geoip-api-c" revision="refs/tags/v1.5.1"/>
   <project path="external/gettext" name="gettext" revision="refs/tags/v0.17"/>
   <project path="external/gnulib" name="gnulib" revision="c7711db84f251d9e580d9fa53a070fa97ae89095"/>
