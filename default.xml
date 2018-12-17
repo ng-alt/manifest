@@ -10,7 +10,6 @@
   <project path="external/expat" name="libexpat" revision="refs/tags/R_2_0_1"/>
   <project path="external/gdbm" name="gdbm" revision="refs/tags/v1.11"/>
   <project path="external/geoip" name="geoip-api-c" revision="refs/tags/v1.5.1"/>
-  <project path="external/gettext" name="gettext" revision="refs/tags/v0.17"/>
   <project path="external/gnulib" name="gnulib" revision="c7711db84f251d9e580d9fa53a070fa97ae89095"/>
   <project path="external/gperf" name="gperf" revision="refs/tags/v3.0.4"/>
   <project path="external/iperf" name="iperf" revision="refs/tags/v2.0.5"/>
@@ -24,7 +23,7 @@
   <project path="external/libexif" name="libexif" revision="refs/tags/v0.6.19" upstream="offpack/master"/>
   <project path="external/libgcrypt" name="libgcrypt" revision="refs/tags/libgcrypt-1.5.0"/>
   <project path="external/libgpg-error" name="libgpg-error" revision="refs/tags/libgpg-error-1.10"/>
-  <project path="external/libiconv" name="libiconv" revision="refs/tags/v1.11"/>
+  <project path="external/libiconv" name="libiconv" revision="refs/tags/v1.14"/>
   <project path="external/libjpeg" name="libjpeg" revision="acc9a4f1ce4a05de8343c33d1f1e90c08237004b"/>
   <project path="external/libkqueue" name="libkqueue" revision="bca27abbd645da97499fd42bbd0c7203ece2de27"/>
   <project path="external/libogg" name="ogg" revision="refs/tags/v1.1.4"/>
