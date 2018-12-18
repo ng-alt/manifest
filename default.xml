@@ -29,7 +29,7 @@
   <project path="external/libogg" name="ogg" revision="refs/tags/v1.1.4"/>
   <project path="external/libpcap" name="libpcap" revision="refs/tags/libpcap-1.4.0"/>
   <project path="external/libunistring" name="libunistring" revision="refs/tags/v0.9.3"/>
-  <project path="external/libunistring/gnulib" name="gnulib" revision="c7711db84f251d9e580d9fa53a070fa97ae89095"/>
+  <project path="external/libunistring/gnulib" name="gnulib" revision="b426171e1c5edb2abe10e338da724eb2ad4e5e50"/>
   <project path="external/libxml2" name="libxml2" revision="refs/tags/LIBXML2.7.2"/>
   <project path="external/lzo" name="lzo" revision="2905e8a5ff5fc5b87df54851180a7004517e3988"/>
   <project path="external/mxml" name="mxml" revision="d5af089cc3e795e3f24ff6b2fee7fd2413a3747c"/>
