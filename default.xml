@@ -57,7 +57,6 @@
   <project path="external/hd-idle" name="hd-idle" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
   <project path="external/hdparm" name="hdparm" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
   <project path="external/hotplug2" name="hotplug2" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/igmpv3proxy" name="igmpv3proxy" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
   <project path="external/iproute2" name="iproute2" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
   <project path="external/iptables" name="iptables" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
   <project path="external/l2tpd" name="l2tpd" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
@@ -104,6 +103,7 @@
 
   <!-- @origin(oss) @vendor(netgear) @owner(i4u) -->
   <project path="external/bridge-utils" name="bridge-utils"/>
+  <project path="external/igmpv3proxy" name="igmpv3proxy"/>
   <project path="external/minidlna" name="minidlna"/>
   <project path="external/python" name="cpython"/>
   <project path="external/radvd" name="radvd"/>
