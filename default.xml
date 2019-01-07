@@ -106,16 +106,8 @@
 
   <!-- @origin(broadcom) @owner(i4u) -->
   <project path="prebuilts/arm/arm-linux-2.6.36-uclibc-4.5.3" name="hndtools-arm-linux-2.6.36-uclibc-4.5.3" revision="i4u/arm-linux-2.6.36-uclibc-4.5.3/x64/master"/>
-
-  <!-- @origin(broadcom) @owner(netgear) -->
-  <project path="vendor/netgear/acos" name="vendor_netgear_acos" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
-  <project path="vendor/netgear/router" name="vendor_broadcom_router" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
-
-  <!-- @origin(broadcom) @vendor(netgear) @owner(i4u) -->
-  <project path="vendor/netgear/base" name="vendor_broadcom_router_base" revision="i4u/netgear/merlin/r6300v2"/>
-
-  <!-- @origin(broadcom) @owner(asus-merlin) -->
-  <project path="vendor/asus/base" name="vendor_broadcom_router_base" revision="merlin/master-ref"/>
+  <project path="vendor/asus/base" name="vendor_broadcom_router_base" revision="i4u/merlin/r6300v2"/>
+  <project path="vendor/asus/router" name="vendor_broadcom_router" revision="i4u/merlin/r6300v2"/>
 
   <!-- @origin(oss) @vendor(asus-merlin) @owner(i4u) -->
   <project path="external/bridge-utils" name="bridge-utils" revision="i4u/merlin/master"/>
@@ -126,7 +118,6 @@
   <project path="external/rp-pppoe" name="rp-pppoe" revision="i4u/merlin/master"/>
   <project path="external/uqmi" name="Uqmi" revision="i4u/merlin/master"/>
   <project path="external/wpa_supplicant" name="hostap-06" revision="i4u/merlin/master"/>
-  <project path="vendor/asus/router" name="vendor_broadcom_router" revision="i4u/merlin/r6300v2"/>
 
   <!-- @origin(oss) @owner(i4u) -->
   <project path="build" name="buildroot" revision="i4u/router/master"/>
