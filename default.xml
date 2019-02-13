@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest>
   <remote name="origin" fetch="." review="https://review.gerrithub.io"/>
-  <default remote="origin" revision="refs/tags/R7000-V1.0.7.12_1.2.5" sync-c="1" sync-j="4" upstream="netgear/r7000-ref"/>
+  <default remote="origin" revision="refs/tags/R7000-V1.0.8.34_1.2.15" sync-c="1" sync-j="4" upstream="netgear/r7000-ref"/>
 
   <!-- @origin(oss) @owner(oss) -->
   <project path="ap/gpl/amule/aMule-2.3.1" name="amule" revision="bd75644c0594d23de6276ea5acc0f7a704aec5bf"/>
   <project path="ap/gpl/amule/wxWidgets-2.8.12" name="wxWidgets" revision="refs/tags/v2.8.12"/>
+  <project path="ap/gpl/conntrack-tools/conntrack-tools-1.4.0" name="conntrack-tools" revision="refs/tags/conntrack-tools-1.4.0"/>
+  <project path="ap/gpl/conntrack-tools/libnetfilter_cthelper-1.0.0" name="libnetfilter_cthelper" revision="refs/tags/libnetfilter_cthelper-1.0.0"/>
+  <project path="ap/gpl/conntrack-tools/libnetfilter_cttimeout-1.0.0" name="libnetfilter_cttimeout" revision="refs/tags/libnetfilter_cttimeout-1.0.0"/>
   <project path="ap/gpl/curl/curl-7.36.0" name="curl" revision="refs/tags/curl-7_36_0"/>
   <project path="ap/gpl/GeoIP-1.5.1" name="geoip-api-c" revision="refs/tags/v1.5.1"/>
   <project path="ap/gpl/gsoap/source" name="gSOAP" revision="refs/tags/v2.7.11"/>
@@ -38,7 +41,7 @@
   <project path="ap/gpl/minidlna/libogg-1.1.4" name="ogg" revision="refs/tags/v1.1.4"/>
   <project path="ap/gpl/minidlna/zlib-1.2.8" name="zlib" revision="refs/tags/v1.2.8"/>
   <project path="ap/gpl/ncftp-3.2.5/source" name="ncftp" revision="refs/tags/v3.2.5"/>
-  <project path="ap/gpl/openssl" name="openssl" revision="refs/tags/OpenSSL_0_9_7f"/>
+  <project path="ap/gpl/openssl-1.0.2h" name="openssl" revision="refs/tags/OpenSSL_1_0_2h"/>
   <project path="ap/gpl/tcpdump-4.4.0" name="tcpdump" revision="refs/tags/tcpdump-4.4.0"/>
   <project path="ap/gpl/timemachine/expat-2.0.1" name="libexpat" revision="refs/tags/R_2_0_1"/>
   <project path="ap/gpl/timemachine/gdbm-1.8.3" name="gdbm" revision="refs/tags/v1.8.3"/>
@@ -77,7 +80,7 @@
   <project path="ap/gpl/minidlna/flac-1.2.1" name="flac"/>
   <project path="ap/gpl/minidlna/libid3tag-0.15.0b" name="libid3tag"/>
   <project path="ap/gpl/minidlna/libvorbis-1.2.3" name="libvorbis"/>
-  <project path="ap/gpl/minidlna/minidlna-1.0.26" name="minidlna"/>
+  <project path="ap/gpl/minidlna/minidlna-1.1.5" name="minidlna"/>
   <project path="ap/gpl/minidlna/sqlite-3.6.22" name="sqlite"/>
   <project path="ap/gpl/mtools-4.0.10" name="mtools"/>
   <project path="ap/gpl/netkit-ftp-0.18-pre1" name="netkit-ftp"/>
@@ -123,10 +126,11 @@
   <!-- @origin(netgear) @owner(netgear) -->
   <project path="ap/acos" name="vendor_netgear_acos"/>
   <project path="project" name="vendor_netgear_router_project">
-    <copyfile src="build_instructions.txt" dest="R7000-V1.0.7.12_1.2.5_build_instructions.txt"/>
+    <copyfile src="build_instructions.txt" dest="R7000-V1.0.8.34_1.2.15_build_instructions.txt"/>
     <copyfile src="gpl/amule/Makefile" dest="ap/gpl/amule/Makefile"/>
     <copyfile src="gpl/config.in" dest="ap/gpl/config.in"/>
     <copyfile src="gpl/config.mk" dest="ap/gpl/config.mk"/>
+    <copyfile src="gpl/conntrack-tools/Makefile" dest="ap/gpl/conntrack-tools/Makefile"/>
     <copyfile src="gpl/curl/Makefile" dest="ap/gpl/curl/Makefile"/>
     <copyfile src="gpl/gsoap/Makefile" dest="ap/gpl/gsoap/Makefile"/>
     <copyfile src="gpl/iserver/edit_config_status.sh" dest="ap/gpl/iserver/edit_config_status.sh"/>
