@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest>
   <remote name="origin" fetch="." review="https://review.gerrithub.io"/>
-  <default remote="origin" revision="refs/tags/R8000-V1.0.4.12_10.1.46" sync-c="1" sync-j="4" upstream="netgear/r8000-ref"/>
+  <default remote="origin" revision="refs/tags/R8000-V1.0.4.18_10.1.49" sync-c="1" sync-j="4" upstream="netgear/r8000-ref"/>
 
   <!-- @origin(oss) @owner(oss) -->
   <project path="ap/gpl/amule/aMule-2.3.1" name="amule" revision="bd75644c0594d23de6276ea5acc0f7a704aec5bf"/>
@@ -34,7 +34,7 @@
   <project path="ap/gpl/minidlna/libexif-0.6.19" name="libexif" revision="refs/tags/v0.6.19" upstream="offpack/master"/>
   <project path="ap/gpl/minidlna/libogg-1.1.4" name="ogg" revision="refs/tags/v1.1.4"/>
   <project path="ap/gpl/minidlna/zlib-1.2.8" name="zlib" revision="refs/tags/v1.2.8"/>
-  <project path="ap/gpl/openssl" name="openssl" revision="refs/tags/OpenSSL_0_9_7f"/>
+  <project path="ap/gpl/openssl-1.0.2h" name="openssl" revision="refs/tags/OpenSSL_1_0_2h"/>
   <project path="ap/gpl/tcpdump-4.4.0" name="tcpdump" revision="refs/tags/tcpdump-4.4.0"/>
   <project path="ap/gpl/timemachine/expat-2.0.1" name="libexpat" revision="refs/tags/R_2_0_1"/>
   <project path="ap/gpl/timemachine/gdbm-1.8.3" name="gdbm" revision="refs/tags/v1.8.3"/>
@@ -55,8 +55,7 @@
   <project path="ap/gpl/bftpd-1.6.6" name="bftpd"/>
   <project path="ap/gpl/bpalogin" name="bpalogin"/>
   <project path="ap/gpl/bzip2" name="bzip2"/>
-  <project path="ap/gpl/circle/ipset-6.30" name="ipset"/>
-  <project path="ap/gpl/dnsmasq-2.15" name="dnsmasq"/>
+  <project path="ap/gpl/dnsmasq-2.78" name="dnsmasq"/>
   <project path="ap/gpl/hd-idle-1.04" name="hd-idle"/>
   <project path="ap/gpl/hdparm-9.43" name="hdparm"/>
   <project path="ap/gpl/IGMP-PROXY" name="igmpv3proxy"/>
@@ -113,7 +112,7 @@
   <!-- @origin(netgear) @owner(netgear) -->
   <project path="ap/acos" name="vendor_netgear_acos"/>
   <project path="project" name="vendor_netgear_router_project">
-    <copyfile src="build_instructions.txt" dest="R8000-V1.0.4.12_10.1.46_build_instructions.txt"/>
+    <copyfile src="build_instructions.txt" dest="R8000-V1.0.4.18_10.1.49_build_instructions.txt"/>
     <copyfile src="gpl/amule/Makefile" dest="ap/gpl/amule/Makefile"/>
     <copyfile src="gpl/circle/Makefile" dest="ap/gpl/circle/Makefile"/>
     <copyfile src="gpl/config.in" dest="ap/gpl/config.in"/>
