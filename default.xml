@@ -11,7 +11,7 @@
   <project path="external/ffmpeg" name="FFmpeg" revision="refs/tags/n0.7.17"/>
   <project path="external/flac" name="flac" revision="refs/tags/1.2.1"/>
   <project path="external/gdbm" name="gdbm" revision="82fe16f532fdd46744c51ba931ecd3fee2b10365"/>
-  <project path="external/geoip" name="geoip-api-c" revision="refs/tags/v1.5.1"/>
+  <project path="external/geoip" name="geoip-api-c" revision="refs/tags/v1.6.2"/>
   <project path="external/gnulib" name="gnulib" revision="c7711db84f251d9e580d9fa53a070fa97ae89095" />
   <project path="external/iproute2" name="iproute2" revision="refs/tags/v3.19.0"/>
   <project path="external/ipset" name="ipset" revision="refs/tags/v4.5"/>
@@ -33,14 +33,11 @@
   <project path="external/libvorbis" name="libvorbis" revision="refs/tags/v1.3.5"/>
   <project path="external/libxml2" name="libxml2" revision="refs/tags/v2.7.7"/>
   <project path="external/lzo" name="lzo" revision="f25a8bf8c61266f4b89642d080895a6b0c78f185"/>
-  <project path="external/minidlna" name="minidlna" revision="refs/tags/v1_2_0"/>
   <project path="external/nano" name="nano" revision="4d5423196708a4c7a699c85def2d474f8fb68b96"/>
   <project path="external/ncurses" name="ncurses" revision="refs/tags/v6.0"/>
   <project path="external/nettle" name="nettle" revision="refs/tags/nettle_3.2_release_20160128"/>
   <project path="external/openssl" name="openssl" revision="refs/tags/OpenSSL_1_0_2n"/>
-  <project path="external/openvpn" name="openvpn" revision="refs/tags/v2.4.3"/>
   <project path="external/pcre" name="pcre" revision="bebdc7799d362462f9e51ad6414c755ad6bd7313"/>
-  <project path="external/quagga" name="quagga" revision="refs/tags/quagga-0.99.22"/>
   <project path="external/sdparm" name="sdparm" revision="refs/tags/v1.02"/>
   <project path="external/sqlite" name="sqlite" revision="refs/tags/amalgam-v3.7.2"/>
   <project path="external/squashfs" name="squashfs-tools" revision="70b2bdb5d976f2976cb7bcf10a319769d405ac55"/>
@@ -75,6 +72,7 @@
   <project path="external/libusb" name="libusb" revision="merlin/master-ref"/>
   <project path="external/libusb-compat" name="libusb-compat" revision="merlin/master-ref"/>
   <project path="external/mdnsresponder" name="mDNSResponder" revision="merlin/master-ref"/>
+  <project path="external/minidlna" name="minidlna" revision="merlin/master-ref"/>
   <project path="external/ministun" name="ministun" revision="merlin/master-ref"/>
   <project path="external/neon" name="neon" revision="merlin/master-ref"/>
   <project path="external/netatalk" name="Netatalk" revision="merlin/master-ref"/>
@@ -84,9 +82,11 @@
   <project path="external/ntpclient" name="ntpclient" revision="merlin/master-ref"/>
   <project path="external/odhcp6c" name="odhcp6c" revision="merlin/master-ref"/>
   <project path="external/openpam" name="OpenPAM" revision="merlin/master-ref"/>
+  <project path="external/openvpn" name="openvpn" revision="merlin/master-ref"/>
   <project path="external/phddns" name="phddns" revision="merlin/master-ref"/>
   <project path="external/portmap" name="portmap" revision="merlin/master-ref"/>
   <project path="external/pppd" name="ppp" revision="merlin/master-ref"/>
+  <project path="external/quagga" name="quagga" revision="merlin/master-ref"/>
   <project path="external/rp-l2tp" name="rp-l2tp" revision="merlin/master-ref"/>
   <project path="external/samba" name="samba" revision="merlin/master-ref"/>
   <project path="external/uqmi/libubox" name="libubox" revision="merlin/master-ref"/>
