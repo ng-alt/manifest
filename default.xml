@@ -1,117 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="origin" fetch="." review="https://review.gerrithub.io"/>
-  <default remote="origin" revision="i4u/netgear/r6400" sync-c="1" sync-j="4" upstream="netgear/r6400-ref"/>
+  <default remote="origin" revision="i4u/merlin/r6300v2" sync-c="1" sync-j="4" upstream="merlin/master-ref"/>
 
   <!-- @origin(oss) @owner(oss) -->
-  <project path="external/amule" name="amule" revision="bd75644c0594d23de6276ea5acc0f7a704aec5bf"/>
-  <project path="external/berkeleydb" name="berkeleydb" revision="refs/tags/v4.7.25.NC"/>
-  <project path="external/dbus" name="dbus" revision="refs/tags/dbus-1.6.8"/>
+  <project path="external/berkeleydb" name="berkeleydb" revision="refs/tags/v4.8.30"/>
+  <project path="external/e2fsprogs" name="e2fsprogs" revision="refs/tags/v1.42.13"/>
+  <project path="external/email/dlib" name="dlib" revision="b76c9b935f5addd68eb34543d8d30e6c4ec6cb9d" />
   <project path="external/expat" name="libexpat" revision="refs/tags/R_2_0_1"/>
-  <project path="external/gdbm" name="gdbm" revision="refs/tags/v1.11"/>
-  <project path="external/geoip" name="geoip-api-c" revision="refs/tags/v1.5.1"/>
-  <project path="external/gnulib" name="gnulib" revision="c7711db84f251d9e580d9fa53a070fa97ae89095"/>
-  <project path="external/gperf" name="gperf" revision="refs/tags/v3.0.4"/>
-  <project path="external/iperf" name="iperf" revision="refs/tags/v2.0.5"/>
-  <project path="external/libantlr" name="libantlr3c" revision="refs/tags/v3.2"/>
-  <project path="external/libav" name="libav" revision="refs/tags/v0.8.8"/>
-  <project path="external/libconfuse" name="libconfuse" revision="refs/tags/v2.7"/>
-  <project path="external/libcsc" name="libcsc" revision="refs/tags/v0.82.3"/>
-  <project path="external/libcurl" name="curl" revision="refs/tags/curl-7_36_0"/>
+  <project path="external/ffmpeg" name="FFmpeg" revision="refs/tags/n0.7.17"/>
+  <project path="external/flac" name="flac" revision="refs/tags/1.2.1"/>
+  <project path="external/gdbm" name="gdbm" revision="82fe16f532fdd46744c51ba931ecd3fee2b10365"/>
+  <project path="external/geoip" name="geoip-api-c" revision="refs/tags/v1.6.2"/>
+  <project path="external/gnulib" name="gnulib" revision="c7711db84f251d9e580d9fa53a070fa97ae89095" />
+  <project path="external/iproute2" name="iproute2" revision="refs/tags/v3.19.0"/>
+  <project path="external/ipset" name="ipset" revision="refs/tags/v4.5"/>
+  <project path="external/json-c" name="json-c" revision="refs/tags/json-c-0.12-20140410"/>
+  <project path="external/libcurl" name="curl" revision="refs/tags/curl-7_54_1"/>
   <project path="external/libdaemon" name="libdaemon" revision="refs/tags/v0.14"/>
-  <project path="external/libevent" name="libevent" revision="refs/tags/release-2.0.20-stable"/>
+  <project path="external/libev" name="libev" revision="refs/tags/rel-4.20"/>
+  <project path="external/libevent" name="libevent" revision="refs/tags/release-2.0.21-stable"/>
   <project path="external/libexif" name="libexif" revision="refs/tags/v0.6.19" upstream="offpack/master"/>
-  <project path="external/libgcrypt" name="libgcrypt" revision="refs/tags/libgcrypt-1.5.0"/>
+  <project path="external/libgcrypt" name="libgcrypt" revision="refs/tags/libgcrypt-1.5.1"/>
   <project path="external/libgpg-error" name="libgpg-error" revision="refs/tags/libgpg-error-1.10"/>
   <project path="external/libiconv" name="libiconv" revision="refs/tags/v1.14"/>
+  <project path="external/libid3tag" name="libid3tag" revision="refs/tags/v0.15.1b"/>
   <project path="external/libjpeg" name="libjpeg" revision="acc9a4f1ce4a05de8343c33d1f1e90c08237004b"/>
-  <project path="external/libkqueue" name="libkqueue" revision="bca27abbd645da97499fd42bbd0c7203ece2de27"/>
-  <project path="external/libogg" name="ogg" revision="refs/tags/v1.1.4"/>
+  <project path="external/libmnl" name="libmnl" revision="refs/tags/libmnl-1.0.3"/>
+  <project path="external/libnfnetlink" name="libnfnetlink" revision="refs/tags/libnfnetlink-1.0.1"/>
+  <project path="external/libogg" name="ogg" revision="refs/tags/v1.3.3"/>
   <project path="external/libpcap" name="libpcap" revision="refs/tags/libpcap-1.4.0"/>
-  <project path="external/libunistring" name="libunistring" revision="refs/tags/v0.9.3"/>
-  <project path="external/libunistring/gnulib" name="gnulib" revision="b426171e1c5edb2abe10e338da724eb2ad4e5e50"/>
-  <project path="external/libxml2" name="libxml2" revision="refs/tags/LIBXML2.7.2"/>
-  <project path="external/lzo" name="lzo" revision="2905e8a5ff5fc5b87df54851180a7004517e3988"/>
-  <project path="external/mxml" name="mxml" revision="d5af089cc3e795e3f24ff6b2fee7fd2413a3747c"/>
-  <project path="external/ncftp" name="ncftp" revision="refs/tags/v3.2.5"/>
-  <project path="external/openssl" name="openssl" revision="refs/tags/OpenSSL_1_0_2h"/>
+  <project path="external/libvorbis" name="libvorbis" revision="refs/tags/v1.3.5"/>
+  <project path="external/libxml2" name="libxml2" revision="refs/tags/v2.7.7"/>
+  <project path="external/lzo" name="lzo" revision="f25a8bf8c61266f4b89642d080895a6b0c78f185"/>
+  <project path="external/nano" name="nano" revision="4d5423196708a4c7a699c85def2d474f8fb68b96"/>
+  <project path="external/ncurses" name="ncurses" revision="refs/tags/v6.0"/>
+  <project path="external/nettle" name="nettle" revision="refs/tags/nettle_3.2_release_20160128"/>
+  <project path="external/openssl" name="openssl" revision="refs/tags/OpenSSL_1_0_2n"/>
+  <project path="external/pcre" name="pcre" revision="bebdc7799d362462f9e51ad6414c755ad6bd7313"/>
+  <project path="external/sdparm" name="sdparm" revision="refs/tags/v1.02"/>
+  <project path="external/sqlite" name="sqlite" revision="refs/tags/amalgam-v3.7.2"/>
   <project path="external/squashfs" name="squashfs-tools" revision="70b2bdb5d976f2976cb7bcf10a319769d405ac55"/>
   <project path="external/tcpdump" name="tcpdump" revision="refs/tags/tcpdump-4.4.0"/>
-  <project path="external/tre" name="tre" revision="cdce45e8dd7a3b36954022b4a4d3570e1ac5a4f8"/>
-  <project path="external/wxwidgets" name="wxWidgets" revision="refs/tags/v2.8.12"/>
+  <project path="external/tor" name="tor" revision="refs/tags/tor-0.2.9.14"/>
+  <project path="external/udev" name="udev" revision="refs/tags/113"/>
+  <project path="external/udpxy" name="udpxy" revision="c045a1e855a8033c5d70ab3e42271ba5636eb520"/>
+  <project path="external/usb_modeswitch" name="usb-modeswitch" revision="refs/tags/upstream/2.3.0"/>
+  <project path="external/wget" name="wget" revision="refs/tags/v1.19.2"/>
   <project path="external/xz" name="xz" revision="refs/tags/v5.0.3"/>
   <project path="external/zlib" name="zlib" revision="refs/tags/v1.2.8"/>
 
-  <!-- @origin(oss) @owner(netgear) -->
-  <project path="external/alsa-lib" name="alsa-lib" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/bftpd" name="bftpd" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/busybox" name="busybox" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/bzip2" name="bzip2" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/dhcp" name="dhcpv6" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/dnsmasq" name="dnsmasq" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/ffmpeg" name="FFmpeg" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/flac" name="flac" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/flex" name="flex" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/forked-daapd" name="forked-daapd" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/hd-idle" name="hd-idle" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/hdparm" name="hdparm" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/hotplug2" name="hotplug2" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/iproute2" name="iproute2" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/iptables" name="iptables" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/l2tpd" name="l2tpd" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/l7filter" name="vendor_netgear_router_l7filter" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/libavl" name="avl" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/libcryptoxx" name="cryptopp" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/libid3tag" name="libid3tag" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/libvorbis" name="libvorbis" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/lzma-sdk" name="LZMA-SDK" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/mtools" name="mtools" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/netatalk" name="Netatalk" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/ntfs-3g" name="ntfs-3g" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/ntpclient" name="ntpclient" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/openvpn" name="openvpn" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/pppd" name="ppp" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/pppoecd" name="pppoe" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/pptp" name="pptpclient" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/samba4" name="samba" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/sqlite" name="sqlite" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/transmission" name="transmission" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/udev" name="udev" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/udhcpd" name="udhcp" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/unzip" name="unzip" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/vlan" name="vlan" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/wakelan" name="wakelan" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/wget" name="wget" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/zebra" name="quagga" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/zeroconf" name="zeroconf" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="external/zip" name="zip" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
+  <!-- @origin(oss) @owner(asus-merlin) -->
+  <project path="external/6relayd" name="6relayd" revision="merlin/master-ref"/>
+  <project path="external/accel-pptp" name="accel-pptp" revision="merlin/master-ref"/>
+  <project path="external/avahi" name="avahi" revision="merlin/master-ref"/>
+  <project path="external/busybox" name="busybox" revision="merlin/master-ref"/>
+  <project path="external/comgt" name="comgt" revision="merlin/master-ref"/>
+  <project path="external/dnsmasq" name="dnsmasq" revision="merlin/master-ref"/>
+  <project path="external/dproxy" name="dproxy" revision="merlin/master-ref"/>
+  <project path="external/dropbear" name="dropbear" revision="merlin/master-ref"/>
+  <project path="external/easy-rsa" name="easy-rsa" revision="merlin/master-ref"/>
+  <project path="external/ebtables" name="ebtables" revision="merlin/master-ref"/>
+  <project path="external/email" name="eMail" revision="merlin/master-ref"/>
+  <project path="external/ez-ipupdate" name="ez-ipupdate" revision="merlin/master-ref"/>
+  <project path="external/forked-daapd" name="forked-daapd" revision="merlin/master-ref"/>
+  <project path="external/hotplug2" name="hotplug2" revision="merlin/master-ref"/>
+  <project path="external/hub-ctrl" name="hub-ctrl" revision="merlin/master-ref"/>
+  <project path="external/igmpproxy" name="igmpproxy" revision="merlin/master-ref"/>
+  <project path="external/iptables" name="iptables" revision="merlin/master-ref"/>
+  <project path="external/l7protocols" name="l7-protocols" revision="merlin/master-ref"/>
+  <project path="external/libusb" name="libusb" revision="merlin/master-ref"/>
+  <project path="external/libusb-compat" name="libusb-compat" revision="merlin/master-ref"/>
+  <project path="external/lzma-sdk" name="LZMA-SDK" revision="merlin/master-ref"/>
+  <project path="external/mdnsresponder" name="mDNSResponder" revision="merlin/master-ref"/>
+  <project path="external/minidlna" name="minidlna" revision="merlin/master-ref"/>
+  <project path="external/ministun" name="ministun" revision="merlin/master-ref"/>
+  <project path="external/neon" name="neon" revision="merlin/master-ref"/>
+  <project path="external/netatalk" name="Netatalk" revision="merlin/master-ref"/>
+  <project path="external/netsnmp" name="net-snmp" revision="merlin/master-ref"/>
+  <project path="external/netstat-nat" name="netstat-nat" revision="merlin/master-ref"/>
+  <project path="external/nfs-utils" name="nfs-utils" revision="merlin/master-ref"/>
+  <project path="external/ntpclient" name="ntpclient" revision="merlin/master-ref"/>
+  <project path="external/odhcp6c" name="odhcp6c" revision="merlin/master-ref"/>
+  <project path="external/openpam" name="OpenPAM" revision="merlin/master-ref"/>
+  <project path="external/openvpn" name="openvpn" revision="merlin/master-ref"/>
+  <project path="external/phddns" name="phddns" revision="merlin/master-ref"/>
+  <project path="external/portmap" name="portmap" revision="merlin/master-ref"/>
+  <project path="external/pppd" name="ppp" revision="merlin/master-ref"/>
+  <project path="external/quagga" name="quagga" revision="merlin/master-ref"/>
+  <project path="external/rp-l2tp" name="rp-l2tp" revision="merlin/master-ref"/>
+  <project path="external/samba" name="samba" revision="merlin/master-ref"/>
+  <project path="external/uqmi/libubox" name="libubox" revision="merlin/master-ref"/>
+  <project path="external/vsftpd" name="vsftpd" revision="merlin/master-ref"/>
+  <project path="vendor/asus/router/asusnatnl/pjproject-1.12" name="pjproject" revision="merlin/master-ref"/>
+  <project path="vendor/asus/router/asusnatnl/pjproject-1.12/third_party/bzip2" name="bzip2" revision="merlin/pjproject-master-ref"/>
+  <project path="vendor/asus/router/asusnatnl/pjproject-1.12/third_party/portaudio" name="portaudio" revision="merlin/pjproject-master-ref"/>
+  <project path="vendor/asus/router/asusnatnl/pjproject-1.12/third_party/umem" name="umem" revision="merlin/pjproject-master-ref"/>
+  <project path="vendor/asus/router/asusnatnl/pjproject-1.12/third_party/usrsctp" name="usrsctp" revision="merlin/pjproject-master-ref"/>
+  <project path="vendor/asus/router/asusnatnl/udt" name="udt4" revision="merlin/master-ref"/>
 
   <!-- @origin(broadcom) @owner(netgear) -->
-  <project path="prebuilts/router/tools" name="vendor_broadcom_router_tools" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
-  <project path="vendor/netgear/base" name="vendor_broadcom_router_base" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
+  <project path="prebuilts/router/tools" name="vendor_broadcom_router_tools" revision="refs/tags/R6400-V1.0.1.44_1.0.31" upstream="netgear/r6400-ref"/>
 
   <!-- @origin(broadcom) @owner(i4u) -->
   <project path="prebuilts/arm/arm-linux-2.6.36-uclibc-4.5.3" name="hndtools-arm-linux-2.6.36-uclibc-4.5.3" revision="i4u/arm-linux-2.6.36-uclibc-4.5.3/x64/master"/>
-  <project path="vendor/netgear/router" name="vendor_broadcom_router"/>
+  <project path="vendor/asus/base" name="vendor_broadcom_router_base" revision="i4u/merlin/r6300v2"/>
+  <project path="vendor/asus/router" name="vendor_broadcom_router" revision="i4u/merlin/r6300v2"/>
 
-  <!-- @origin(netgear) @owner(netgear) -->
-  <project path="vendor/netgear/acos" name="vendor_netgear_acos" revision="refs/tags/R6400-V1.0.1.44_1.0.31"/>
+  <!-- @origin(oss) @vendor(asus-merlin) @owner(i4u) -->
+  <project path="external/bridge-utils" name="bridge-utils" revision="i4u/merlin/master"/>
+  <project path="external/libsmbclient" name="samba" revision="i4u/merlin/libsmbclient-master"/>
+  <project path="external/lighttpd" name="lighttpd" revision="i4u/merlin/master"/>
+  <project path="external/lprng" name="lprng" revision="i4u/merlin/master"/>
+  <project path="external/miniupnp" name="miniupnp" revision="i4u/merlin/master"/>
+  <project path="external/rp-pppoe" name="rp-pppoe" revision="i4u/merlin/master"/>
+  <project path="external/uqmi" name="Uqmi" revision="i4u/merlin/master"/>
+  <project path="external/wpa_supplicant" name="hostap-06" revision="i4u/merlin/master"/>
 
   <!-- @origin(oss) @owner(i4u) -->
   <project path="build" name="buildroot" revision="i4u/router/master"/>
-
-  <!-- @origin(oss) @vendor(netgear) @owner(i4u) -->
-  <project path="external/avahi" name="avahi"/>
-  <project path="external/bridge-utils" name="bridge-utils"/>
-  <project path="external/igmpv3proxy" name="igmpv3proxy"/>
-  <project path="external/minidlna" name="minidlna"/>
-  <project path="external/python" name="cpython"/>
-  <project path="external/radvd" name="radvd"/>
-  <project path="kernel" name="linux" revision="i4u/netgear/r6400"/>
+  <project path="kernel" name="linux" revision="i4u/merlin/r6300v2"/>
 
   <!-- @origin(i4u) @owner(i4u) -->
   <project path="build/support/extra" name="buildroot_support_extra" revision="i4u/master">
     <linkfile src="envsetup.sh" dest="build/envsetup.sh"/>
   </project>
-  <project path="vendor/intelli4u/buildroot" name="vendor_intelli4u_buildroot_br-external" revision="i4u/netgear/r6400"/>
+  <project path="vendor/intelli4u/buildroot" name="vendor_intelli4u_buildroot_br-external"/>
 </manifest>
