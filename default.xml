@@ -71,6 +71,7 @@
   <project path="external/l7protocols" name="l7-protocols" revision="merlin/master-ref"/>
   <project path="external/libusb" name="libusb" revision="merlin/master-ref"/>
   <project path="external/libusb-compat" name="libusb-compat" revision="merlin/master-ref"/>
+  <project path="external/lzma-sdk" name="LZMA-SDK" revision="merlin/master-ref"/>
   <project path="external/mdnsresponder" name="mDNSResponder" revision="merlin/master-ref"/>
   <project path="external/minidlna" name="minidlna" revision="merlin/master-ref"/>
   <project path="external/ministun" name="ministun" revision="merlin/master-ref"/>
@@ -97,9 +98,6 @@
   <project path="vendor/asus/router/asusnatnl/pjproject-1.12/third_party/umem" name="umem" revision="merlin/pjproject-master-ref"/>
   <project path="vendor/asus/router/asusnatnl/pjproject-1.12/third_party/usrsctp" name="usrsctp" revision="merlin/pjproject-master-ref"/>
   <project path="vendor/asus/router/asusnatnl/udt" name="udt4" revision="merlin/master-ref"/>
-
-  <!-- @origin(oss) @owner(netgear) -->
-  <project path="external/lzma-sdk" name="LZMA-SDK" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
 
   <!-- @origin(broadcom) @owner(netgear) -->
   <project path="prebuilts/router/tools" name="vendor_broadcom_router_tools" revision="refs/tags/R6300v2-V1.0.4.20_10.0.85"/>
