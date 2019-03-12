@@ -80,5 +80,5 @@
   <project path="build/support/extra" name="buildroot_support_extra" revision="i4u/master">
     <linkfile src="envsetup.sh" dest="build/envsetup.sh"/>
   </project>
-  <project path="vendor/intelli4u/buildroot" name="vendor_intelli4u_buildroot_br-external"/>
+  <project path="vendor/intelli4u/build" name="vendor_intelli4u_buildroot_br-external"/>
 </manifest>
