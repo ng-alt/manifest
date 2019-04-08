@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="origin" fetch="." review="https://review.gerrithub.io"/>
-  <default remote="origin" revision="i4u/merlin/r6300v2" sync-c="1" sync-j="4" upstream="merlin/master-ref"/>
+  <default remote="origin" revision="i4u/merlin/r6400" sync-c="1" sync-j="4" upstream="merlin/master-ref"/>
 
   <!-- @origin(oss) @owner(oss) -->
   <project path="external/berkeleydb" name="berkeleydb" revision="refs/tags/v4.8.30"/>
@@ -119,7 +119,7 @@
 
   <!-- @origin(oss) @owner(i4u) -->
   <project path="build" name="buildroot" revision="i4u/router/master"/>
-  <project path="kernel" name="linux" revision="i4u/merlin/r6300v2"/>
+  <project path="kernel" name="linux" revision="i4u/merlin/r6400"/>
 
   <!-- @origin(i4u) @owner(i4u) -->
   <project path="build/support/extra" name="buildroot_support_extra" revision="i4u/master">
