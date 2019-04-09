@@ -112,6 +112,8 @@
   <!-- @origin(i4u) @owner(i4u) -->
   <project path="build/support/extra" name="buildroot_support_extra" revision="i4u/master">
     <linkfile src="envsetup.sh" dest="build/envsetup.sh"/>
+    <linkfile src="main.mk" dest="build/main.mk"/>
+    <copyfile src="Makefile" dest="Makefile"/>
   </project>
   <project path="vendor/intelli4u/build" name="vendor_intelli4u_buildroot_br-external" revision="i4u/netgear/r6400"/>
 </manifest>
