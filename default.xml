@@ -107,7 +107,7 @@
   <project path="external/minidlna" name="minidlna"/>
   <project path="external/python" name="cpython"/>
   <project path="external/radvd" name="radvd"/>
-  <project path="kernel" name="linux" revision="i4u/netgear/r6400"/>
+  <project path="kernel" name="linux"/>
 
   <!-- @origin(i4u) @owner(i4u) -->
   <project path="build/support/extra" name="buildroot_support_extra" revision="i4u/master">
@@ -115,5 +115,5 @@
     <linkfile src="main.mk" dest="build/main.mk"/>
     <copyfile src="Makefile" dest="Makefile"/>
   </project>
-  <project path="vendor/intelli4u/build" name="vendor_intelli4u_buildroot_br-external" revision="i4u/netgear/r6400"/>
+  <project path="vendor/intelli4u/build" name="vendor_intelli4u_buildroot_br-external"/>
 </manifest>
