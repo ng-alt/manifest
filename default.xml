@@ -6,7 +6,6 @@
   <!-- @origin(oss) @owner(oss) -->
   <project path="external/amule" name="amule" revision="bd75644c0594d23de6276ea5acc0f7a704aec5bf"/>
   <project path="external/awsiot" name="aws-iot-device-sdk-embedded-C" revision="refs/tags/v1.0.1"/>
-  <project path="external/berkeleydb" name="berkeleydb" revision="refs/tags/v4.7.25.NC"/>
   <project path="external/conntrack-tools" name="conntrack-tools" revision="refs/tags/conntrack-tools-1.4.0"/>
   <project path="external/dbus" name="dbus" revision="refs/tags/dbus-1.6.8"/>
   <project path="external/expat" name="libexpat" revision="refs/tags/R_2_0_1"/>
@@ -51,6 +50,7 @@
 
   <!-- @origin(oss) @owner(netgear) -->
   <project path="external/alsa-lib" name="alsa-lib" revision="refs/tags/R7000-V1.0.9.60_10.2.60"/>
+  <project path="external/berkeleydb" name="berkeleydb" revision="refs/tags/R7000-V1.0.9.60_10.2.60"/>
   <project path="external/bftpd" name="bftpd" revision="refs/tags/R7000-V1.0.9.60_10.2.60"/>
   <project path="external/bpalogin" name="bpalogin" revision="refs/tags/R7000-V1.0.9.60_10.2.60"/>
   <project path="external/busybox" name="busybox" revision="refs/tags/R7000-V1.0.9.60_10.2.60"/>
