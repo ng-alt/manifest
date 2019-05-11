@@ -113,6 +113,11 @@
   <!-- @origin(netgear) @owner(netgear) -->
   <project path="vendor/netgear/acos" name="vendor_netgear_acos" revision="refs/tags/R7000-V1.0.9.60_10.2.60"/>
 
+  <!-- @origin(netgear) @owner(i4u) -->
+  <project path="vendor/netgear/xref" name="vendor_netgear_router_project" revision="refs/tags/R7000-V1.0.9.60_10.2.60">
+    <linkfile src="gpl/openssl/opencrt" dest="external/openssl/new_opencrt"/>
+  </project>
+
   <!-- @origin(oss) @owner(i4u) -->
   <project path="build" name="buildroot" revision="i4u/router/master"/>
 
