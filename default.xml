@@ -103,7 +103,7 @@
   <project path="external/zip" name="zip" revision="refs/tags/R7000-V1.0.9.60_10.2.60"/>
 
   <!-- @origin(broadcom) @owner(netgear) -->
-  <project path="prebuilts/router/tools" name="vendor_broadcom_router_tools" revision="refs/tags/R7000-V1.0.9.60_10.2.60"/>
+  <project path="prebuilts/router/tools" name="vendor_broadcom_router_tools" revision="refs/tags/R6400-V1.0.1.46_1.0.32"/>
   <project path="vendor/netgear/base" name="vendor_broadcom_router_base" revision="refs/tags/R7000-V1.0.9.60_10.2.60"/>
 
   <!-- @origin(broadcom) @owner(i4u) -->
