@@ -104,7 +104,7 @@
 
   <!-- @origin(broadcom) @owner(i4u) -->
   <project path="prebuilts/arm/arm-linux-2.6.36-uclibc-4.5.3" name="hndtools-arm-linux-2.6.36-uclibc-4.5.3" revision="i4u/arm-linux-2.6.36-uclibc-4.5.3/x64/master"/>
-  <project path="vendor/asus/base" name="vendor_broadcom_router_base" revision="merlin/7.x.main-ref"/>
+  <project path="vendor/asus/base" name="vendor_broadcom_router_base"/>
   <project path="vendor/asus/router" name="vendor_broadcom_router"/>
 
   <!-- @origin(oss) @vendor(asus-merlin) @owner(i4u) -->
