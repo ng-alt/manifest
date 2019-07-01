@@ -99,9 +99,9 @@
 
   <!-- @origin(netgear) @owner(i4u) -->
   <project path="vendor/netgear/xref" name="vendor_netgear_router_project" revision="refs/tags/R6400-V1.0.1.46_1.0.32">
-    <copyfile src="gpl/openssl/opencrt/index.txt.start" dest="vendor/netgear/router/openssl/new_opencrt/index.txt.start"/>
-    <copyfile src="gpl/openssl/opencrt/openssl.cnf" dest="vendor/netgear/router/openssl/new_opencrt/openssl.cnf"/>
-    <copyfile src="gpl/openssl/opencrt/serial.start" dest="vendor/netgear/router/openssl/new_opencrt/serial.start"/>
+    <copyfile src="gpl/openssl/opencrt/index.txt.start" dest="external/openssl/new_opencrt/index.txt.start"/>
+    <copyfile src="gpl/openssl/opencrt/openssl.cnf" dest="external/openssl/new_opencrt/openssl.cnf"/>
+    <copyfile src="gpl/openssl/opencrt/serial.start" dest="external/openssl/new_opencrt/serial.start"/>
   </project>
 
   <!-- @origin(oss) @owner(i4u) -->
