@@ -6,11 +6,12 @@ the code could be compiled with the commands:
 
 ```bash
 $ source build/envsetup.sh
-$ lunch r6300v2
+$ lunch
+<select product to build>
 $ make
 ```
 
-The generated binary file will be found at the directory `out/r6300v2/images`
+The generated binary file will be found at the directory `out/r6400/images`
 with the extension both `chk` and `trx`. The `chk` file can be used to update
 official firmware to merlin or flash via TFTP via TTL, and the `trx` one can
 be used to upgrade the firmware.
