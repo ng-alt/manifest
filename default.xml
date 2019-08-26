@@ -88,7 +88,7 @@
   <project path="external/zip" name="zip" revision="refs/tags/R8000-V1.0.4.28_10.1.54"/>
 
   <!-- @origin(broadcom) @owner(netgear) -->
-  <project path="prebuilts/router/tools" name="vendor_broadcom_router_tools" revision="refs/tags/R6400-V1.0.1.46_1.0.32"/>
+  <project path="prebuilts/router/tools" name="vendor_broadcom_router_tools" revision="refs/tags/R8000-V1.0.4.28_10.1.54"/>
   <project path="vendor/netgear/base" name="vendor_broadcom_router_base" revision="refs/tags/R8000-V1.0.4.28_10.1.54"/>
 
   <!-- @origin(broadcom) @owner(i4u) -->
