@@ -4,8 +4,12 @@
   <default remote="origin" revision="merlin/master-ref" sync-c="1" sync-j="4"/>
 
   <project path="release/src/xz" name="xz" revision="refs/tags/v5.0.3"/>
-  <project path="release/src/lzma" name="LZMA-SDK"/>
-  <project path="release/src/router" name="vendor_broadcom_router"/>
+  <project path="release/src/lzma" name="LZMA-SDK">
+    <linkfile src="." dest="release/src-rt-6.x.4708/lzma"/>
+  </project>
+  <project path="release/src/router" name="vendor_broadcom_router">
+    <linkfile src="." dest="release/src-rt-6.x.4708/router"/>
+  </project>
   <project path="release/src/router/6relayd" name="6relayd"/>
   <project path="release/src/router/accel-pptp" name="accel-pptp"/>
   <project path="release/src/router/asusnatnl/pjproject-1.12/third_party/bzip2" name="bzip2" revision="merlin/pjproject-master-ref"/>
@@ -98,9 +102,6 @@
   <project path="release/src/router/wget" name="wget" revision="refs/tags/v1.19.2"/>
   <project path="release/src/router/wpa_supplicant" name="hostap-06" revision="i4u/merlin/master"/>
   <project path="release/src/router/zlib" name="zlib" revision="refs/tags/v1.2.8"/>
-  <project path="release/src-rt-6.x.4708" name="vendor_broadcom_router_base">
-    <linkfile src="../src/lzma" dest="release/src-rt-6.x.4708/lzma"/>
-    <linkfile src="../src/router" dest="release/src-rt-6.x.4708/router"/>
-  </project>
+  <project path="release/src-rt-6.x.4708" name="vendor_broadcom_router_base"/>
   <project path="release/src-rt-6.x.4708/linux/linux-2.6.36" name="linux"/>
 </manifest>
