@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="origin" fetch="." review="https://review.gerrithub.io"/>
-  <default remote="origin" revision="merlin/master-ref" sync-c="1" sync-j="4"/>
+  <default remote="origin" revision="merlin.ng/master-ref" sync-c="1" sync-j="4"/>
 
   <project path="release/src/xz" name="xz" revision="refs/tags/v5.0.3"/>
   <project path="release/src/lzma" name="LZMA-SDK">
@@ -63,7 +63,6 @@
   <project path="release/src/router/lighttpd-1.4.39" name="lighttpd"/>
   <project path="release/src/router/LPRng" name="lprng"/>
   <project path="release/src/router/lzo" name="lzo" revision="f25a8bf8c61266f4b89642d080895a6b0c78f185"/>
-  <project path="release/src/router/mDNSResponder" name="mDNSResponder"/>
   <project path="release/src/router/minidlna" name="minidlna"/>
   <project path="release/src/router/ministun" name="ministun"/>
   <project path="release/src/router/miniupnp" name="miniupnp"/>
@@ -75,7 +74,6 @@
   <project path="release/src/router/netatalk-3.0.5" name="Netatalk"/>
   <project path="release/src/router/netstat-nat" name="netstat-nat"/>
   <project path="release/src/router/nettle" name="nettle" revision="refs/tags/nettle_3.2_release_20160128"/>
-  <project path="release/src/router/nfs-utils" name="nfs-utils"/>
   <project path="release/src/router/ntpclient" name="ntpclient"/>
   <project path="release/src/router/odhcp6c" name="odhcp6c"/>
   <project path="release/src/router/openpam" name="OpenPAM"/>
