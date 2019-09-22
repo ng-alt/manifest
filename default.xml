@@ -5,10 +5,8 @@
 
   <project path="release/src/xz" name="xz" revision="refs/tags/v5.0.3"/>
   <project path="release/src/lzma" name="LZMA-SDK">
-    <linkfile src="." dest="release/src-rt-6.x.4708/lzma"/>
   </project>
-  <project path="release/src/router" name="vendor_broadcom_router">
-    <linkfile src="." dest="release/src-rt-6.x.4708/router"/>
+  <project path="release/src/router-ref" name="vendor_broadcom_router">
   </project>
   <project path="release/src/router/6relayd" name="6relayd"/>
   <project path="release/src/router/accel-pptp" name="accel-pptp"/>
@@ -22,14 +20,14 @@
   <project path="release/src/router/bridge" name="bridge-utils"/>
   <project path="release/src/router/busybox" name="busybox"/>
   <project path="release/src/router/comgt-0.32" name="comgt"/>
-  <project path="release/src/router/curl" name="curl" revision="refs/tags/curl-7_54_1"/>
+  <project path="release/src/router/curl" name="curl" revision="refs/tags/curl-7_65_3"/>
   <project path="release/src/router/db-4.8.30" name="berkeleydb" revision="refs/tags/v4.8.30"/>
   <project path="release/src/router/dnsmasq" name="dnsmasq"/>
   <project path="release/src/router/dproxy" name="dproxy"/>
   <project path="release/src/router/dropbear" name="dropbear"/>
   <project path="release/src/router/e2fsprogs" name="e2fsprogs" revision="refs/tags/v1.42.13"/>
   <project path="release/src/router/ebtables" name="ebtables"/>
-  <project path="release/src/router/email/dlib" name="dlib" revision="b76c9b935f5addd68eb34543d8d30e6c4ec6cb9d"/>
+  <project path="release/src/router/email-3.1.3/dlib" name="dlib" revision="b76c9b935f5addd68eb34543d8d30e6c4ec6cb9d"/>
   <project path="release/src/router/email-3.1.3" name="eMail"/>
   <project path="release/src/router/expat-2.0.1" name="libexpat" revision="refs/tags/R_2_0_1"/>
   <project path="release/src/router/ez-ipupdate" name="ez-ipupdate"/>
@@ -67,7 +65,7 @@
   <project path="release/src/router/ministun" name="ministun"/>
   <project path="release/src/router/miniupnp" name="miniupnp"/>
   <project path="release/src/router/mt-daapd" name="forked-daapd"/>
-  <project path="release/src/router/nano" name="nano" revision="4d5423196708a4c7a699c85def2d474f8fb68b96"/>
+  <project path="release/src/router/nano" name="nano" revision="refs/tags/v4.2"/>
   <project path="release/src/router/ncurses" name="ncurses" revision="refs/tags/v6.0"/>
   <project path="release/src/router/neon" name="neon"/>
   <project path="release/src/router/net-snmp-5.7.2" name="net-snmp"/>
@@ -77,7 +75,7 @@
   <project path="release/src/router/ntpclient" name="ntpclient"/>
   <project path="release/src/router/odhcp6c" name="odhcp6c"/>
   <project path="release/src/router/openpam" name="OpenPAM"/>
-  <project path="release/src/router/openssl" name="openssl" revision="refs/tags/OpenSSL_1_0_2n"/>
+  <project path="release/src/router/openssl" name="openssl" revision="refs/tags/OpenSSL_1_0_2s"/>
   <project path="release/src/router/openvpn/easy-rsa" name="easy-rsa"/>
   <project path="release/src/router/openvpn" name="openvpn"/>
   <project path="release/src/router/pcre-8.31" name="pcre" revision="bebdc7799d362462f9e51ad6414c755ad6bd7313"/>
@@ -90,7 +88,7 @@
   <project path="release/src/router/samba3" name="samba"/>
   <project path="release/src/router/sdparm-1.02" name="sdparm" revision="refs/tags/v1.02"/>
   <project path="release/src/router/sqlite" name="sqlite" revision="refs/tags/amalgam-v3.7.2"/>
-  <project path="release/src/router/tor" name="tor" revision="refs/tags/tor-0.2.9.14"/>
+  <project path="release/src/router/tor" name="tor" revision="refs/tags/tor-0.3.5.8"/>
   <project path="release/src/router/udev" name="udev" revision="refs/tags/113"/>
   <project path="release/src/router/udpxy" name="udpxy" revision="c045a1e855a8033c5d70ab3e42271ba5636eb520"/>
   <project path="release/src/router/uqmi/libubox" name="libubox"/>
