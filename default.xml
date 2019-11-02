@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest>
   <remote name="origin" fetch="." review="https://review.gerrithub.io"/>
-  <default remote="origin" revision="i4u/merlin/r7000" sync-c="1" sync-j="4" upstream="netgear/r7000-ref"/>
+  <default remote="origin" revision="i4u/merlin/r8000-7.x.main" sync-c="1" sync-j="4" upstream="netgear/r8000-ref"/>
 
   <!-- @origin(oss) @owner(oss) -->
   <project path="external/berkeleydb" name="berkeleydb" revision="refs/tags/v4.8.30"/>
@@ -100,12 +100,12 @@
   <project path="vendor/asus/router/asusnatnl/udt" name="udt4" revision="merlin/master-ref"/>
 
   <!-- @origin(broadcom) @owner(netgear) -->
-  <project path="prebuilts/router/tools" name="vendor_broadcom_router_tools" revision="refs/tags/R6400-V1.0.1.46_1.0.32" upstream="netgear/r6400-ref"/>
+  <project path="prebuilts/router/tools" name="vendor_broadcom_router_tools" revision="refs/tags/R8000-V1.0.4.28_10.1.54"/>
 
   <!-- @origin(broadcom) @owner(i4u) -->
   <project path="prebuilts/arm/arm-linux-2.6.36-uclibc-4.5.3" name="hndtools-arm-linux-2.6.36-uclibc-4.5.3" revision="i4u/arm-linux-2.6.36-uclibc-4.5.3/x64/master"/>
-  <project path="vendor/asus/base" name="vendor_broadcom_router_base" revision="i4u/merlin/r7000-7.x.main"/>
-  <project path="vendor/asus/router" name="vendor_broadcom_router" revision="i4u/merlin/r7000-7.x.main"/>
+  <project path="vendor/asus/base" name="vendor_broadcom_router_base"/>
+  <project path="vendor/asus/router" name="vendor_broadcom_router"/>
 
   <!-- @origin(oss) @vendor(asus-merlin) @owner(i4u) -->
   <project path="external/bridge-utils" name="bridge-utils" revision="i4u/merlin/master"/>
@@ -119,7 +119,7 @@
 
   <!-- @origin(oss) @owner(i4u) -->
   <project path="build" name="buildroot" revision="i4u/router/master"/>
-  <project path="kernel" name="linux" revision="i4u/merlin/r7000-7.x.main"/>
+  <project path="kernel" name="linux"/>
 
   <!-- @origin(i4u) @owner(i4u) -->
   <project path="build/support/extra" name="buildroot_support_extra" revision="i4u/master">

@@ -6,7 +6,7 @@ the code could be compiled with the commands:
 
 ```bash
 $ source build/envsetup.sh
-$ lunch r7000
+$ lunch r8000
 $ make
 ```
 
