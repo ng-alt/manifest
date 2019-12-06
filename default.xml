@@ -42,7 +42,6 @@
   <project path="external/udpxy" name="udpxy" revision="c045a1e855a8033c5d70ab3e42271ba5636eb520"/>
   <project path="external/usb_modeswitch" name="usb-modeswitch" revision="refs/tags/upstream/2.3.0"/>
   <project path="external/wget" name="wget" revision="refs/tags/v1.19.2"/>
-  <project path="external/wpa_supplicant" name="hostap-06" revision="i4u/merlin/master"/>
   <project path="external/xz" name="xz" revision="refs/tags/v5.0.3"/>
   <project path="external/zlib" name="zlib" revision="refs/tags/v1.2.8"/>
 
@@ -92,7 +91,6 @@
   <project path="external/uqmi" name="Uqmi" revision="i4u/merlin/master"/>
   <project path="external/uqmi/libubox" name="libubox"/>
   <project path="external/vsftpd" name="vsftpd"/>
-  <project path="kernel" name="linux"/>
   <project path="vendor/asus/router/asusnatnl/pjproject-1.12" name="pjproject"/>
   <project path="vendor/asus/router/asusnatnl/pjproject-1.12/third_party/bzip2" name="bzip2" revision="merlin/pjproject-master-ref"/>
   <project path="vendor/asus/router/asusnatnl/pjproject-1.12/third_party/portaudio" name="portaudio" revision="merlin.ng/pjproject-master-ref"/>
@@ -103,4 +101,19 @@
   <!-- @origin(broadcom) @owner(asuswrt-merlin) -->
   <project path="vendor/asus/base" name="vendor_broadcom_router_base"/>
   <project path="vendor/asus/router" name="vendor_broadcom_router"/>
+
+  <!-- @origin(oss) @vendor(asus-merlin) @owner(i4u) -->
+  <project path="external/wpa_supplicant" name="hostap-06" revision="i4u/merlin/master"/>
+
+  <!-- @origin(oss) @owner(i4u) -->
+  <project path="build" name="buildroot" revision="i4u/router/master"/>
+  <project path="kernel" name="linux"/>
+
+  <!-- @origin(i4u) @owner(i4u) -->
+  <project path="build/support/extra" name="buildroot_support_extra" revision="i4u/master">
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh"/>
+    <linkfile src="main.mk" dest="build/main.mk"/>
+    <copyfile src="Makefile" dest="Makefile"/>
+  </project>
+  <project path="vendor/intelli4u/build" name="vendor_intelli4u_buildroot_br-external" revision="i4u/merlin/master"/>
 </manifest>
